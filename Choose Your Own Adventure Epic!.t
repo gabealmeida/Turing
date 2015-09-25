@@ -488,10 +488,45 @@ loop
 	put ""
 	get input
     end if
-    
-    
+
+    if input = 31 then
+	put ""
+	put "You really want to prove that you can tie your shoes, hmm?"
+	put "You tie your shoes one last time and GET THEM RIGHT!"
+	%    put "achivement"
+	put "Where do you want to go now that you've tied your shoes?"
+	put "Bus Stop [49]"
+	put "Taco Hut [50]"
+	put "Mario & Luigi's Spinnin' Spaghettii Diner [51]"
+	put "Pineapple Burger [52]"
+	get input
+    end if
+
+    if input = 32 then
+	put ""
+	put "Cool! I watched''Science That!''the other day and heard you can get superpowers by looking at the sun!"
+	put "You stare into the sun" ..
+	for i : 1 .. 5
+	    delay (d_climb)
+	    put "." ..
+	end for
+	put ""
+	put "Why is everything dark now!?"
+	put "Oh no! You went blind!"
+	put "At this point, you can't continue your adventure :("
+	delay (9000)
+	put "Restarting." ..
+	for i : 1 .. 4
+	    delay (1000)
+	    put "." ..
+	end for
+	sfm := 1
+	cls
+    end if
+
 
 
 
 
 end loop
+

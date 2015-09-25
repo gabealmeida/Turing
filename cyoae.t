@@ -127,8 +127,19 @@ end if
 
     % Game %
     loop
-
+    
+if sfm = 1 then    
+    put "Choose Your Own Adventure Epic!"
+    put "By NotNemesis"
+    put ""
+    put "Type [B] to start your adventure!"
+    put "Type [M] for menu"
+    put ""
+    sfm := 0
+    get v_menu
+end if
 	if v_menu = "b" or v_menu = "B" then
+	    sfm := 0
 	    put ""
 	    colour (white)
 	    put "You wake up. It's Saturday. What will you do?"
@@ -138,16 +149,6 @@ end if
 	    get input
 	else
 	end if
-
-	put ""
-	colour (white)
-	put "You wake up. It's Saturday. What will you do?"
-	put "Go back to bed [2]"
-	put "Get up [3]"
-	put ""
-	get input
-
-
 
 	if input = 2 then
 	    put ""
@@ -215,8 +216,10 @@ end if
 	    colour (42)
 	    put "ACHIVEMENT GET! WUSS"
 	    delay (5000)
-	    cls
+	    sfm := 2
+	    delay (100)
 	    sfm := 1
+	    cls   
 	else
 	end if
 
