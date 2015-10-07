@@ -236,18 +236,6 @@ loop
         else
         end if
 
-        if input = 13 then
-            put ""
-            put "What will you watch?"
-            put "Cartoons [9]"
-            put "Sports [10]"
-            put "News [11]"
-            put "The Real Huntresses of Alaska [12]"
-            put ""
-            get input
-        else
-        end if
-
         if input = 9 then
             put ""
             put "Yay! Cartoons! You watch your favourite show, LoofahJoe TriangleShirt."
@@ -307,6 +295,17 @@ loop
         else
         end if
 
+        if input = 13 then
+            put ""
+            put "What will you watch?"
+            put "Cartoons [9]"
+            put "Sports [10]"
+            put "News [11]"
+            put "The Real Huntresses of Alaska [12]"
+            put ""
+            get input
+        else
+        end if
 
         if input = 14 then
             put ""
@@ -538,7 +537,7 @@ loop
 
         if input = 26 then
             put ""
-            put "You walk to the right.".
+            put "You walk to the right."
 
             for i : 1 .. 5
                 delay (1500)
@@ -577,12 +576,12 @@ loop
             put "All this work just to jump back in?"
             put "Okay, you're the boss."
             put "You jump."
-            
+
             for i : 1 .. 60
-                put "."
                 delay (1000)
+                put "."
             end for
-            
+
             put "Splat! You land hard and have nothing to break your fall."
             colour (12)
             put "YOU ARE DEAD!"
