@@ -215,6 +215,7 @@ loop
             put "YOU DIED!!!"
             colour (42)
             put "ACHIVEMENT GET! WUSS"
+            put "Restarting... :("
             delay (5000)
             sfm := 2
             delay (100)
@@ -384,8 +385,12 @@ loop
             put "Fine! I'm leaving you!"
             colour (42)
             put "ACHIVEMENT GET! LEFT BY COMPUTER!"
-            colour (12)
-            put "GAME END! PLEASE REASTART!"
+            put "Restarting..."
+            delay (5000)
+            sfm := 2
+            delay (100)
+            sfm := 1
+            cls
         else
             colour (white)
         end if
@@ -467,7 +472,7 @@ loop
         else
         end if
 
-        if input = 22 then
+        if input = 22 then %fix this
             put ""
             put "Oh, okay Mr/Mrs/Miss/Dr. Confident."
             put "What channel do you go to?"
@@ -490,7 +495,12 @@ loop
             colour (12)
             put "YOU ARE DEAD!"
             colour (white)
-            delay (55000)
+            put "Restarting..."
+            delay (5000)
+            sfm := 2
+            delay (100)
+            sfm := 1
+            cls
         else
         end if
 
@@ -508,6 +518,7 @@ loop
             colour (12)
             put "YOU ARE DEAD!"
             colour (white)
+            put "Restarting..."
             delay (5000)
             cls
             sfm := 1
@@ -585,7 +596,12 @@ loop
             put "Splat! You land hard and have nothing to break your fall."
             colour (12)
             put "YOU ARE DEAD!"
-            delay (55000)
+            put "Restarting..."
+            delay (5000)
+            sfm := 2
+            delay (100)
+            sfm := 1
+            cls
         else
         end if
 
@@ -597,7 +613,12 @@ loop
             colour (12)
             put "YOU ARE DEAD!"
             colour (white)
-            delay (55000)
+            put "Restarting..."
+            delay (5000)
+            sfm := 2
+            delay (100)
+            sfm := 1
+            cls
         else
         end if
 
@@ -614,6 +635,42 @@ loop
             get input
         else
         end if
+
+        if input = 31 then
+            put ""
+            put "You really want to prove that you can tie your shoes, hmm?"
+            put "You tie your shoes one last time and GET THEM RIGHT!"
+            %    put "achivement"
+            put "Where do you want to go now that you've tied your shoes?"
+            put "Bus Stop [49]"
+            put "Taco Hut [50]"
+            put "Mario & Luigi's Spinnin' Spaghettii Diner [51]"
+            put "Pineapple Burger [52]"
+            get input
+        end if
+
+        if input = 32 then
+            put ""
+            put "Cool! I watched''Science That!''the other day and heard you can get superpowers by looking at the sun!"
+            put "You stare into the sun" ..
+
+            for i : 1 .. 6
+                put "."
+                delay (1000)
+            end for
+
+            put ""
+            put "Why is everything dark now!?"
+            put "Oh no! You went blind!"
+            put "At this point, you can't continue your adventure :("
+            put "Restarting..."
+            delay (5000)
+            sfm := 2
+            delay (100)
+            sfm := 1
+            cls
+        end if
+
 
     end loop
 end loop
