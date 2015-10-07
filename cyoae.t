@@ -670,6 +670,40 @@ loop
             sfm := 1
             cls
         end if
+        
+        if input = 33 then
+        put "You walk to the bus station."
+        put "It's not too far from your house, just a couple of blocks away from your house."
+        
+        for i : 1 .. 10
+        put "."
+        delay (1000)
+        end for
+        
+        put "You see the bus station from a distance, AND A BUS THAT'S LEAVING!"
+        put "THAT BUS IS THE ONLY ONE TO SUPER TACO HUT!!!"
+        put "WHAT WILL YOU DO NOW?!"
+        put "RUN FOR THE BUS!!!! AHHHHHHHHHHHHHHH![53]
+        put "RUNRUNRUNRUNRUNRUN! [54]
+        put "Lose all hope and go to the regular Taco Hut, I heard they're practically the same [55]"
+        put ""
+        get input
+        end if
+        
+        if input = 34 then
+        put "STEAL A CAR!!! WOO!!!"
+        put "Oh wait... um... dude that's illegal..."
+        put "Even in a videogame..."
+        put "But you're the boss, right?"
+        put "ALRIGHT LET'S STEAL A CAR!!!"
+        put "YOU PUNCH THE WINDOW OF A CAR AND IT FREAKING SMASHES INTO LITTLE BITS!!!"
+        put "YOU GET IN THE DRIVERS SEAT AND YOU DO 100000000000000000000KM IN A SCHOOL ZONE!"
+        put "WOO KIDDOS WHO CARES ABOUT PHYSICS I'M GOING HELLA FAST BABY!!!"
+        put "BUT YOUR SELF-CONSIOUS COMPPUTER GAME HEARS SIRENS BLARING IN THE DISTANCE!!!"
+        put "TYPE [56] TO CONTINUE!!!"
+        get input
+        end if
+         
 
 
     end loop
