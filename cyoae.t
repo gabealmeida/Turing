@@ -724,8 +724,29 @@ loop
             get input
         end if
 
+        if input = 39 then
+            put "You turn around, only to find a monsterous dragon blocking your path."
+            delay (500)
+            put "The dragon asks,'Oh, hello there darling! Are you here for my precious?"
+            delay (500)
+            put "You reply that you were just leaving but the dragon doesn't believe you."
+            delay (500)
+            put "'Then let me see the proof!'"
+            delay (500)
+            put "Suddenly, the dragon scorches your body to the point where only your bones remain."
+            colour (12)
+            put "YOU ARE DEAD!"
+            put "Restarting..."
+            delay (5000)
+            sfm := 2
+            delay (100)
+            sfm := 1
+            cls
+        else
+        end if
 
 
 
-        end loop
+
     end loop
+end loop
