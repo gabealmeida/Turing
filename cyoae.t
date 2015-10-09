@@ -1,3 +1,5 @@
+% Choose Your Own Adventure Epic! By Rafael (NotNemesis), Mason (KP2000), and Kernen (Minecrafitian47)
+
 % Variables %
 var w_play : int := Window.Open ("position:center;center,graphics:900;600,nobuttonbar") %Adjust the screen size if needed%
 View.Set ("title:Choose Your Own Adventure Epic!")
@@ -683,8 +685,8 @@ loop
         put "You see the bus station from a distance, AND A BUS THAT'S LEAVING!"
         put "THAT BUS IS THE ONLY ONE TO SUPER TACO HUT!!!"
         put "WHAT WILL YOU DO NOW?!"
-        put "RUN FOR THE BUS!!!! AHHHHHHHHHHHHHHH![53]
-        put "RUNRUNRUNRUNRUNRUN! [54]
+        put "RUN FOR THE BUS!!!! AHHHHHHHHHHHHHHH![53]"
+        put "RUNRUNRUNRUNRUNRUN! [54]"
         put "Lose all hope and go to the regular Taco Hut, I heard they're practically the same [55]"
         put ""
         get input
