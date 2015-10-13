@@ -5,9 +5,11 @@ var ver : string := "Test Build 1"
 var ftit : int := Font.New ("system:100")
 var fver : int := Font.New ("system:15")
 var per1 : array 0 .. 2 of string
-%per1(0) := "[1] 
+per1(0) := "[1] Guy Swordswing  "
+per1(1) := "[2] Amy Archell  "
+per1(2) := "[3] Wi Zerg  "
 var ip, p1c, p2c : int
-var p1, p2 : int
+var p1, p2 : string
 var screen : int := 0
 
 if screen = 0 then
@@ -34,11 +36,13 @@ if screen = 1 then
     put ""
     put "Loading Character Library..."
     delay (500)
-    screen = 2 
+    screen := 2 
 end if
 
 if screen = 2 then
 cls
-put p1, ", Choose Your Character!
-
+put p1, ", Choose Your Character!"
+put per1(0), per1(1), per1(2)
+get p1c
+end if
 
