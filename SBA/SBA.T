@@ -5,7 +5,7 @@ var ver : string := "Test Build 1"
 var ftit : int := Font.New ("system:100")
 var fver : int := Font.New ("system:15")
 var per1 : array 0 .. 2 of string
-% Declare per1
+%per1(0) := "[1] 
 var ip, p1c, p2c : int
 var p1, p2 : int
 var screen : int := 0
@@ -36,5 +36,9 @@ if screen = 1 then
     delay (500)
     screen = 2 
 end if
+
+if screen = 2 then
+cls
+put p1, ", Choose Your Character!
 
 
