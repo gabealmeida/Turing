@@ -1,7 +1,7 @@
 % Super Battle Arena! By NotNemesis
 View.Set ("graphics:900;600,title:Super Battle Arena!, nobuttonbar, position:center;center")
 
-var ver : string := "Test Build 6"
+var ver : string := "Test Build 7"
 var ftit : int := Font.New ("system:100")
 var fver : int := Font.New ("system:15")
 var per1 : array 0 .. 2 of string % Characters 1
