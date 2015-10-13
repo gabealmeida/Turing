@@ -40,3 +40,21 @@ Skills
 (M)DMG : 70  EFT : 1.01x MDF
 {4} Strengthen
 (E)DMG : 0   EFT : 1.10x DEF and 1.05x MDF
+
+[3] Wi Zerd, Magical Wuju Wizard
+HP  : 1985
+ATK : 208
+DEF : 662
+MAG : 799
+MDF : 702
+SPD : 307
+
+Skills
+{1} Magic Blast
+(M)DMG :     EFT : None
+{2} Heal Wounds
+(E)DMG : 0   EFT : Restores 200 HP
+{3} Staff Bash
+(P)DMG :     EFT :
+{4} Fireball
+(M)DMG :     EFT : Heals 70 HP
