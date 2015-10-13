@@ -1,7 +1,7 @@
 % Super Battle Arena! By NotNemesis
 View.Set ("graphics:900;600,title:Super Battle Arena!, nobuttonbar, position:center;center")
 
-var ver : string := "Test Build 5"
+var ver : string := "Test Build 6"
 var ftit : int := Font.New ("system:100")
 var fver : int := Font.New ("system:15")
 var per1 : array 0 .. 2 of string % Characters 1
@@ -14,7 +14,7 @@ var hp1, at1, df1, mg1, md1, sp1 : int % P1 STATS
 var hp2, at2, df2, mg2, md2, sp2 : int % P2 STATS
 var screen : int := 0
 
-if screen = 0 then
+if screen = 0 then % Menu
     Font.Draw ("Super Battle Arena!", 130, 350, ftit, black)
     Font.Draw (ver, 0, 0, fver, black)
     locate (15, 45)
@@ -28,11 +28,11 @@ if ip > -1 then
     screen := 1
 end if
 
-if screen = 1 then
-    put "What is your name, player 1?"
+if screen = 1 then % Name Set
+    put "What is your name, player 1?" % P1
     get p1 : *
     put "Welcome, ", p1
-    put "And what is your name, player 2?"
+    put "And what is your name, player 2?" % P2
     get p2 : *
     put "Welcome, ", p2
     put ""
@@ -41,17 +41,19 @@ if screen = 1 then
     screen := 2 
 end if
 
-if screen = 2 then
+if screen = 2 then % Character Select
 cls
-put p1, ", Choose Your Character!"
+put p1, ", Choose Your Character!" % P1
 put per1(0), per1(1), per1(2)
 get p1c
 cls
-put p2, ", Choose Your Character!"
+put p2, ", Choose Your Character!" % P2
 put per1(0), per1(1), per1(2)
 get p2c
 end if
 
+% Setting Stats
+% [1] Guy Swordswing
 if p1c = 1 then
 hp1 := 3922
 at1 := 922
@@ -70,6 +72,7 @@ md2 := 699
 sp2 := 308
 end if
 
+% [2] Amy Archell
 if p1c = 2 then
 hp1 := 2539
 at1 := 810
