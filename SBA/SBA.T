@@ -1,15 +1,17 @@
 % Super Battle Arena! By NotNemesis
 View.Set ("graphics:900;600,title:Super Battle Arena!, nobuttonbar, position:center;center")
 
-var ver : string := "Test Build 1"
+var ver : string := "Test Build 4"
 var ftit : int := Font.New ("system:100")
 var fver : int := Font.New ("system:15")
-var per1 : array 0 .. 2 of string
+var per1 : array 0 .. 2 of string % Characters 1
 per1(0) := "[1] Guy Swordswing  "
 per1(1) := "[2] Amy Archell  "
-per1(2) := "[3] Wi Zerg  "
-var ip, p1c, p2c : int
-var p1, p2 : string
+per1(2) := "[3] Wi Zerd  "
+var ip, p1c, p2c : int % Input & Character Choices
+var p1, p2 : string % Player Names
+var hp1, at1, df1, mg1, md1, sp1 : int % P1 STATS
+var hp2, at2, df2, mg2, md2, sp2 : int % P2 STATS
 var screen : int := 0
 
 if screen = 0 then
@@ -44,5 +46,28 @@ cls
 put p1, ", Choose Your Character!"
 put per1(0), per1(1), per1(2)
 get p1c
+cls
+put p2, ", Choose Your Character!"
+put per1(0), per1(1), per1(2)
+get p2c
 end if
+
+if p1c = 1 then
+hp1 := 3922
+at1 := 922
+df1 := 810
+mg1 := 108
+md1 := 699
+sp1 := 308
+end if
+
+if p1c = 1 then
+hp1 := 3922
+at1 := 922
+df1 := 810
+mg1 := 108
+md1 := 699
+sp1 := 308
+end if
+
 

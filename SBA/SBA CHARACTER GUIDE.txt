@@ -1,0 +1,24 @@
+Super Battle Arena Character Guide
+
+Contents
+[1] Guy Swordswing
+[2] Amy Archell
+[3] Wi Zerd
+
+[1] Guy Swordswing, Warrior of the Arena
+HP  : 3922
+ATK : 922
+DEF : 810
+MAG : 108
+MDF : 699
+SPD : 308
+
+Skills
+{1} Sword Spin
+DMG : 100 EFT : None
+{2} Gain Courage
+DMG : 0   EFT : 1.15x ATK
+{3} Dragon Slash
+DMG : 75  EFT : Does 3x DMG if enemy is dragon
+{4} Shield Smash
+DMG : 50  EFT : 1.05x DEF and 1.05x MDF
