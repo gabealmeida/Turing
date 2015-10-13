@@ -1,7 +1,7 @@
 % Super Battle Arena! By NotNemesis
 View.Set ("graphics:900;600,title:Super Battle Arena!, nobuttonbar, position:center;center")
 
-var ver : string := "Test Build 4"
+var ver : string := "Test Build 5"
 var ftit : int := Font.New ("system:100")
 var fver : int := Font.New ("system:15")
 var per1 : array 0 .. 2 of string % Characters 1
@@ -61,13 +61,34 @@ md1 := 699
 sp1 := 308
 end if
 
-if p1c = 1 then
-hp1 := 3922
-at1 := 922
-df1 := 810
-mg1 := 108
-md1 := 699
-sp1 := 308
+if p2c = 1 then
+hp2 := 3922
+at2 := 922
+df2 := 810
+mg2 := 108
+md2 := 699
+sp2 := 308
 end if
+
+if p1c = 2 then
+hp1 := 2539
+at1 := 810
+df1 := 600
+mg1 := 788
+md1 := 605
+sp1 := 411
+end if
+
+if p2c = 2 then
+hp2 := 2539
+at2 := 810
+df2 := 600
+mg2 := 788
+md2 := 605
+sp2 := 411
+end if
+
+
+
 
 
