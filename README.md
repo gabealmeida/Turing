@@ -1,2 +1,2 @@
-# CYAOE
-Choose Your Own Adventure game written in Turing
+# Turing
+Turing projects by NotNemesis
