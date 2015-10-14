@@ -1,10 +1,10 @@
-% Choose Your Own Adventure Epic! By Rafael (NotNemesis), Mason (KP2000), and Kernen (Minecrafitian47)
+% Choose Your Own Adventure Epic! By Rafael (NotNemesis), Mason (sonason), and Kernen (Minecrafitian47)
 
 % Variables %
 var w_play : int := Window.Open ("position:center;center,graphics:900;600,nobuttonbar") %Adjust the screen size if needed%
 View.Set ("title:Choose Your Own Adventure Epic!")
 var v_menu : string
-var input : int
+var input, res : int
 var sfm : int := 1
 
 % Colouring %
@@ -217,10 +217,9 @@ loop
             put "YOU DIED!!!"
             colour (42)
             put "ACHIVEMENT GET! WUSS"
-            put "Restarting... :("
-            delay (5000)
-            sfm := 2
-            delay (100)
+            colour (white)
+            put "Type [0] to restart"
+            get res
             sfm := 1
             cls
         else
@@ -387,10 +386,8 @@ loop
             put "Fine! I'm leaving you!"
             colour (42)
             put "ACHIVEMENT GET! LEFT BY COMPUTER!"
-            put "Restarting..."
-            delay (5000)
-            sfm := 2
-            delay (100)
+            put "Type [0] to restart"
+            get res
             sfm := 1
             cls
         else
@@ -497,10 +494,8 @@ loop
             colour (12)
             put "YOU ARE DEAD!"
             colour (white)
-            put "Restarting..."
-            delay (5000)
-            sfm := 2
-            delay (100)
+            put "Type [0] to restart"
+            get res
             sfm := 1
             cls
         else
@@ -520,9 +515,8 @@ loop
             colour (12)
             put "YOU ARE DEAD!"
             colour (white)
-            put "Restarting..."
-            delay (5000)
-            cls
+            put "Type [0] to restart"
+            get res
             sfm := 1
         else
         end if
@@ -598,12 +592,9 @@ loop
             put "Splat! You land hard and have nothing to break your fall."
             colour (12)
             put "YOU ARE DEAD!"
-            put "Restarting..."
-            delay (5000)
-            sfm := 2
-            delay (100)
+            put "Type [0] to restart"
+            get res
             sfm := 1
-            cls
         else
         end if
 
@@ -615,10 +606,8 @@ loop
             colour (12)
             put "YOU ARE DEAD!"
             colour (white)
-            put "Restarting..."
-            delay (5000)
-            sfm := 2
-            delay (100)
+            put "Type [0] to restart"
+            get res
             sfm := 1
             cls
         else
@@ -665,10 +654,8 @@ loop
             put "Why is everything dark now!?"
             put "Oh no! You went blind!"
             put "At this point, you can't continue your adventure :("
-            put "Restarting..."
-            delay (5000)
-            sfm := 2
-            delay (100)
+            put "Type [0] to restart"
+            get res
             sfm := 1
             cls
         end if
@@ -736,10 +723,8 @@ loop
             put "Suddenly, the dragon scorches your body to the point where only your bones remain."
             colour (12)
             put "YOU ARE DEAD!"
-            put "Restarting..."
-            delay (5000)
-            sfm := 2
-            delay (100)
+            put "Type [0] to restart"
+            get res
             sfm := 1
             cls
         else
