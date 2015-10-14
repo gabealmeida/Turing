@@ -284,7 +284,7 @@ loop
 
         if input = 12 then
             put ""
-            put "Ugh, but that show sucks, come on! It got a 18/100 for last season."
+            put "Ugh, but that show sucks, come on! It got a 18/93 for last season."
             put "So you watch the stupid show."
             put "In the episode, Angela gets mad at Tony for giving her a polar bear for her birthday instead of giving her a baby seal."
             put "And Joseph and Sara spent their 132nd day in the tundra freezing to death and trying to reach a place where the ground isn't perma-permafrost."
@@ -703,6 +703,19 @@ loop
             put "Let's go kidnapping![58]"
             put "Murdering people is super fun![59]"
             put "I never wanted to be a bad guy![60]"
+            get input
+        end if
+
+        if input = 36 then
+            put "I DON'T KNOW WHAT I'M DOING SO LET'S JUMP OUT OF A WINDOW!"
+            put "YOU JUMP OUT OF THE WINDOW BUT TIME IT WRONG AND LAND ON AN OLD LADY'S CHIHUAHUA!"
+            put "THE WEIGHT OF YOUR BODY CRUSHES THE POOR THING"
+            put "THE OLD LADY RUNS AWAY IN FEAR AFTER YOU KILL HER DOG (YOU MONSTER)"
+            put "WHAT WILL YOU DO NOW, KILLER BOY/GIRL?"
+            delay (5000)
+            put "HIDE THE BODY [61]"
+            put "BURY THE BODY [62]"
+            put "RUN TO THE BUS STATION AND START A NEW LIFE [63]"
             get input
         end if
 
