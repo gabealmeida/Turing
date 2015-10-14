@@ -698,28 +698,19 @@ loop
             delay (1000)
             put "Um..."
             put "So..."
-            delay (500)
             put "What first?"
-            delay (999)
-            put "Bank robbery! The classics![57]"
-            delay (999)
+            put "Bank robbery! The classic![57]"
             put "Let's go kidnapping![58]"
-            delay (999)
             put "Murdering people is super fun![59]"
-            delay (999)
             put "I never wanted to be a bad guy![60]"
             get input
         end if
 
         if input = 39 then
             put "You turn around, only to find a monsterous dragon blocking your path."
-            delay (500)
             put "The dragon asks,'Oh, hello there darling! Are you here for my precious?"
-            delay (500)
             put "You reply that you were just leaving but the dragon doesn't believe you."
-            delay (500)
             put "'Then let me see the proof!'"
-            delay (500)
             put "Suddenly, the dragon scorches your body to the point where only your bones remain."
             colour (12)
             put "YOU ARE DEAD!"
