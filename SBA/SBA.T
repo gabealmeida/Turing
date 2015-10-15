@@ -1,7 +1,7 @@
 % Super Battle Arena! By NotNemesis
 View.Set ("graphics:900;600,title:Super Battle Arena!, nobuttonbar, position:center;center")
 
-var ver : string := "Test Build 11"
+var ver : string := "Test Build 12"
 var ftit : int := Font.New ("system:100")
 var fver : int := Font.New ("system:15")
 var per1 : array 0 .. 2 of string % Characters 1
@@ -199,5 +199,6 @@ loop
         dmgc := (at1 / df2) * (ad1(0) + 2)
         hp2 := hp2 - dmgc
         put p2, " took ", dmgc, " damage!"
-
+    elsif com1 = 2 and ar1 = "ab1" then
+       
 
