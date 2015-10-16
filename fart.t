@@ -1,4 +1,4 @@
-#(F)ART By NotNemesis
+%(F)ART By NotNemesis
 var art : int := Window.Open
 ("graphics: 1200;800, title:FART, position:top, center")
 var vare : int := Window.Open
