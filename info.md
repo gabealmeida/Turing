@@ -13,7 +13,7 @@ Description
 Clock program made in Turing.
 <hr>
 
-<a href="https://github.com/NotNemesis/Turing/blob/master/cyaoe.t" target="_blank">Choose Your Own Adventure Epic!</a>
+<a href="https://github.com/NotNemesis/Turing/blob/master/cyoae.t" target="_blank">Choose Your Own Adventure Epic!</a>
 <br>
 Contributors : NotNemesis, sonason, Minecraftian47
 <br>
