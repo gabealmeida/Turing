@@ -1,6 +1,6 @@
 %(F)ART By NotNemesis
 var art : int := Window.Open
-("graphics: 1200;800, title:FART, position:top, center")
+("graphics: 900;600, title:FART, position:top, center")
 var vare : int := Window.Open
 ("graphics: 100;100, title:FART GPS, position:bottom,left")
 var chars : array char of boolean
@@ -61,4 +61,3 @@ put "X : ", x
 put "Y : ", y
 delay (15)
 end loop
-
