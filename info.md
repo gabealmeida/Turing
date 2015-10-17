@@ -117,3 +117,28 @@ Description
 Fight against your friends and enemies with over 30 (planned) characters!
 <hr>
 
+<a href="https://github.com/NotNemesis/Turing/blob/master/size.t">SizeO</a>
+<br>
+Contributors : NotNemesis
+<br>
+Version : v1
+<br>
+Last Updated Sep 24, 2015
+<br>
+Description
+<br>
+Draws a square according to the user's specifications.
+<hr>
+
+<a href="https://github.com/NotNemesis/Turing/blob/master/smallclock.t">Small Clock</a>
+<br>
+Contributors : NotNemesis
+<br>
+Version : v2
+<br>
+Last Updated Oct 12, 2015
+<br>
+Description
+<br>
+Smaller version of Clock in Turing
+<hr>
