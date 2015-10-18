@@ -474,7 +474,11 @@ loop
         if input = 22 then %fix this
             put ""
             put "Oh, okay Mr/Mrs/Miss/Dr. Confident."
-            put "What channel do you go to?"
+            put "Which news channel will you watch?"
+            put ""
+            put "Democratic People's Republic of North Dakota State-Run TV[64]"
+            put "NTV [65]"
+            put "Tri-City Area News [66]"
             put ""
             get input
         else
