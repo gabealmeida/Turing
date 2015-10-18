@@ -761,6 +761,27 @@ loop
             put "Type [66] to walk up to the people"
             get input
         end if
+        
+        if input = 41 then
+        put "You stay behind the tires and hope that they find you."
+        put "You fall (yawn) asleep..."
+        put "Z"..
+        for i : 1 .. 100
+        delay (500)
+        put "z"..
+        end for
+        put ""
+        put "*Snap-snap* Wake up! They left!"
+        put "Now you're stuck here! Good job!"
+        colour (12)
+            put "GAME OVER!"
+            put "Type [0] to restart"
+            get res
+            sfm := 1
+            cls
+        end if
+        
+        
 
     end loop
 end loop
