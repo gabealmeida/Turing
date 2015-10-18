@@ -140,7 +140,9 @@ loop
             sfm := 0
             get v_menu
         end if
+        
         if v_menu = "b" or v_menu = "B" then
+            v_menu := "c"
             sfm := 0
             put ""
             colour (white)

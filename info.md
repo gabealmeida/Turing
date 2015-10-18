@@ -17,7 +17,7 @@ Clock program made in Turing.
 <br>
 Contributors : NotNemesis, sonason, Minecraftian47
 <br>
-Version : v17
+Version : v18
 <br>
 Last Updated Oct 18, 2015
 <br>
