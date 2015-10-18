@@ -722,6 +722,18 @@ loop
             put "RUN TO THE BUS STATION AND START A NEW LIFE [63]"
             get input
         end if
+        
+        if input = 38 then
+            put "YEAH! You jump in the shiny stuff!"
+            put "You try and taste the shiny stuff but you seem to swallow some by accident!"
+            put "A dragon appears and tries to do the heimlich maneuver on you but it tears into your body with its claws instead..."
+            colour (12)
+            put "YOU ARE DEAD!"
+            put "Type [0] to restart"
+            get res
+            sfm := 1
+            cls
+            end if
 
         if input = 39 then
             put "You turn around, only to find a monsterous dragon blocking your path."
