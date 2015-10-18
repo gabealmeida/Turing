@@ -140,7 +140,7 @@ loop
             sfm := 0
             get v_menu
         end if
-        
+
         if v_menu = "b" or v_menu = "B" then
             v_menu := "c"
             sfm := 0
@@ -755,7 +755,7 @@ loop
         if input = 40 then
             put "You say hi."
             for i : 1 .. 3
-                put "." 
+                put "."
                 delay (1000)
             end for
             put "Oh wait, you're still here... Behind the tires..."
@@ -763,27 +763,40 @@ loop
             put "Type [66] to walk up to the people"
             get input
         end if
-        
+
         if input = 41 then
-        put "You stay behind the tires and hope that they find you."
-        put "You fall (yawn) asleep..."
-        put "Z"..
-        for i : 1 .. 100
-        delay (500)
-        put "z"..
-        end for
-        put ""
-        put "*Snap-snap* Wake up! They left!"
-        put "Now you're stuck here! Good job!"
-        colour (12)
+            put "You stay behind the tires and hope that they find you."
+            put "You fall (yawn) asleep..."
+            put "Z" ..
+            for i : 1 .. 100
+                delay (500)
+                put "z" ..
+            end for
+            put ""
+            put "*Snap-snap* Wake up! They left!"
+            put "Now you're stuck here! Good job!"
+            colour (12)
             put "GAME OVER!"
             put "Type [0] to restart"
             get res
             sfm := 1
             cls
         end if
-        
-        
+
+        if input = 42 then
+            put "As you learned in some form of previous or current education, strangers are bad and you need to run away from them."
+            put "You scream ''STRANGER DANGER!!!'' at the top of your lungs and start to run."
+            put "One of the people from the camp starts to chase you saying ''Hey wait!''."
+            put "You can't fool me dangerous stranger person!"
+            put "Right at that moment, you trip on a pineapple and fall into the stomach acids of the beast!"
+            put "Your last words are ''ARGBALARGABABHRG DARBN BABLAGRBABGGLARB PINEBLAGRBLARPLE!''"
+            colour (12)
+            put "GAME OVER!"
+            put "Type [0] to restart"
+            get res
+            sfm := 1
+            cls
+        end if
 
     end loop
 end loop
