@@ -20,7 +20,7 @@ Clock program made in Turing.
 <br>
 Contributors : NotNemesis, sonason, Minecraftian47
 <br>
-Version : v18
+Version : v19
 <br>
 Last Updated Oct 18, 2015
 <br>
