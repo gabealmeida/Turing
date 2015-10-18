@@ -722,7 +722,7 @@ loop
             put "RUN TO THE BUS STATION AND START A NEW LIFE [63]"
             get input
         end if
-        
+
         if input = 38 then
             put "YEAH! You jump in the shiny stuff!"
             put "You try and taste the shiny stuff but you seem to swallow some by accident!"
@@ -733,7 +733,7 @@ loop
             get res
             sfm := 1
             cls
-            end if
+        end if
 
         if input = 39 then
             put "You turn around, only to find a monsterous dragon blocking your path."
@@ -750,8 +750,17 @@ loop
         else
         end if
 
-
-
+        if input = 40 then
+            put "You say hi."
+            for i : 1 .. 3
+                put "." 
+                delay (1000)
+            end for
+            put "Oh wait, you're still here... Behind the tires..."
+            put "They didn't hear you, maybe you should walk up to them?"
+            put "Type [66] to walk up to the people"
+            get input
+        end if
 
     end loop
 end loop
