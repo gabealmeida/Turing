@@ -21,9 +21,9 @@ Clock program made in Turing.
 <br>
 Contributors : NotNemesis, sonason, Minecraftian47
 <br>
-Version : v19
+Version : v20
 <br>
-Last Updated Oct 18, 2015
+Last Updated Oct 19, 2015
 <br>
 Description
 <br>
