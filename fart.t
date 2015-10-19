@@ -1,10 +1,10 @@
 var vare : int := Window.Open
 ("graphics: 100;100, title:FART GPS, position:bottom,left")
 var art : int := Window.Open
-("graphics: 1200;800, title:FART, position:top, center")
+("graphics: 900;600 title:FART, position:top, center")
 var chars : array char of boolean
 var x, y, xx, yy : int
-var title : int := Font.New ("system:100")
+var title : int := Font.New ("system:50")
 var hud : int := Font.New ("system:20")
 var colur : int
 
@@ -14,12 +14,12 @@ y := 0
 xx := 10
 yy:= 10
 
-Font.Draw ("(F)ART", 0, 700, title, black)
-Font.Draw ("[A] - [H] for colours 1-6", 0, 600, hud, black)
-Font.Draw ("[Z] - [N] for colours 7-12", 0, 570, hud, black)
-Font.Draw ("[E] for white", 0, 540, hud, black)
-Font.Draw ("[R] for random colour", 0, 510, hud, black)
-Font.Draw ("[SPACE] to clear", 0, 480, hud, black)
+Font.Draw ("(F)ART", 0, 540, title, black)
+Font.Draw ("[A] - [H] for colours 1-6", 0, 500, hud, black)
+Font.Draw ("[Z] - [N] for colours 7-12", 0, 470, hud, black)
+Font.Draw ("[E] for white", 0, 440, hud, black)
+Font.Draw ("[R] for random colour", 0, 410, hud, black)
+Font.Draw ("[SPACE] to clear", 0, 380, hud, black)
 delay (6000)
 randint (colur, 1, 12)
 cls
@@ -118,4 +118,3 @@ put "X : ", x
 put "Y : ", y
 delay (15)
 end loop
-
