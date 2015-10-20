@@ -116,5 +116,5 @@ cls
 put "Colour : ", colur
 put "X : ", x
 put "Y : ", y
-delay (15)
+delay (7)
 end loop
