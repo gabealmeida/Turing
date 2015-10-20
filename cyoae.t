@@ -837,8 +837,21 @@ loop
             put "Pineapple Burger [52]"
             get input
         end if
-        
-        
+
+        if input = 46 then
+            put "Fine you big jerk! Don't tie your dumb shoes!"
+            put "You tuck your laces into your shoes and start to leave the house."
+            put "Just then, New Punidas, Lord of Shoes, appears!"
+            put "''YOU!'' he says in his booming voice."
+            put "''Due to your ignorance and lack of tying your shoes, I force you to 80 years of untying knots in dimension 982!''"
+            put "In the blink of an eye, you are sent to dimension 982 and must untie knots for the rest of your life!"
+            colour (12)
+            put "GAME OVER!"
+            put "Type [0] to restart"
+            get res
+            sfm := 1
+            cls
+        end if
 
     end loop
 end loop
