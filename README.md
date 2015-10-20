@@ -60,9 +60,9 @@ Description
 <br>
 Contributors : NotNemesis
 <br>
-Version : v5
+Version : v6
 <br>
-Last Updated Oct 19, 2015
+Last Updated Oct 20, 2015
 <br>
 Description
 <br>
