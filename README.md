@@ -95,17 +95,30 @@ Description
 Counts all the numbers from 1 to a specified number
 <hr>
 
-<a href="https://github.com/NotNemesis/Turing/blob/master/house.t" target="_blank">Draw.House</a>
+<a href="https://github.com/NotNemesis/Turing/blob/master/rapixgen.t" target="_blank">Rapixgen</a>
 <br>
 Contributors : NotNemesis
 <br>
-Version : v1
+Version : v3
 <br>
-Last Updated Sep 24, 2015
+Last Updated Oct 21, 2015
 <br>
 Description
 <br>
-Draws a house :house:
+Draws default github icon at random
+<hr>
+
+<a href="https://github.com/NotNemesis/Turing/blob/master/clock.t" target="_blank">Clock</a>
+<br>
+Contributors : NotNemesis
+<br>
+Version : v2
+<br>
+Last Updated Oct 12, 2015
+<br>
+Description
+<br>
+Clock program made in Turing.
 <hr>
 
 <a href="https://github.com/NotNemesis/Turing/tree/master/SBA" target="_blank">Super Battle Arena!</a>
