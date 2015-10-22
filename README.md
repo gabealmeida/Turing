@@ -105,6 +105,19 @@ Description
 Counts all the numbers from 1 to a specified number
 <hr>
 
+<a href="https://github.com/NotNemesis/Turing/blob/master/periodical.t" target="_blank">Periodical</a>
+<br>
+Contributors : NotNemesis
+<br>
+Version : v0
+<br>
+Last Updated Oct 22, 2015
+<br>
+Description
+<br>
+Program that gives information on elementin the periodic table.
+<hr>
+
 <a href="https://github.com/NotNemesis/Turing/blob/master/rapixgen.t" target="_blank">Rapixgen</a>
 <br>
 Contributors : NotNemesis
