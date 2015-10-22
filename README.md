@@ -7,6 +7,10 @@ Turing projects by NotNemesis
 Contributed to:
 Clock, Choose Your Own Adventure Epic!, Draw.Mario, Dungeon Quest, (F)ART, Gambalo!, hack.t (Countomatic!), RapixGen, Super Battle Arena, SizeO, Small Clock (Development, Testing)
 <hr>
+<a href="https://github.com/MC47" target="_blank">MC47</a>
+Contributed to:
+Choose Your Own Adventure Epic!, Wiki
+<hr>
 
 #List of Projects in this Repository
 
