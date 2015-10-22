@@ -2,6 +2,16 @@
 Turing projects by NotNemesis
 <!--Hello-->
 
+#Contributors
+<a href="https://github.com/NotNemesis" target="_blank">NotNemesis</a>
+Contributed to:
+Clock, Choose Your Own Adventure Epic!, Draw.Mario, Dungeon Quest, (F)ART, Gambalo!, hack.t (Countomatic!), RapixGen, Super Battle Arena, SizeO, Small Clock (Development, Testing)
+<hr>
+<a href="https://github.com/MC47" target="_blank">MC47</a>
+Contributed to:
+Choose Your Own Adventure Epic!, Wiki
+<hr>
+
 #List of Projects in this Repository
 
 <a href="https://github.com/NotNemesis/Turing/blob/master/clock.t" target="_blank">Clock</a>
@@ -106,19 +116,6 @@ Last Updated Oct 21, 2015
 Description
 <br>
 Draws default github icon at random
-<hr>
-
-<a href="https://github.com/NotNemesis/Turing/blob/master/clock.t" target="_blank">Clock</a>
-<br>
-Contributors : NotNemesis
-<br>
-Version : v2
-<br>
-Last Updated Oct 12, 2015
-<br>
-Description
-<br>
-Clock program made in Turing.
 <hr>
 
 <a href="https://github.com/NotNemesis/Turing/tree/master/SBA" target="_blank">Super Battle Arena!</a>
