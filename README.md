@@ -1,5 +1,6 @@
 # Turing
 Turing projects by NotNemesis
+You can download Turing <a href="http://compsci.ca/holtsoft/" target="_blank">here.</a>
 <!--Hello-->
 
 #Contributors
