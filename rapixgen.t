@@ -95,5 +95,8 @@ procedure dothing
     end for
 end dothing
 
-dothing
-
+loop
+    cls
+    dothing
+    delay (1000)
+end loop
