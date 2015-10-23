@@ -32,9 +32,9 @@ Clock program made in Turing.
 <br>
 Contributors : NotNemesis, sonason, Minecraftian47
 <br>
-Version : v21
+Version : v22
 <br>
-Last Updated Oct 19, 2015
+Last Updated Oct 22, 2015
 <br>
 Description
 <br>
