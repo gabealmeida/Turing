@@ -852,6 +852,22 @@ loop
             sfm := 1
             cls
         end if
+        
+        if input = 47 then
+        put "Is that how it's gonna be? Okay then."
+        put "The computer makes you tie your shoes, then forces you to chant that it is great."
+        for i : 1 .. 20
+        put "Computer is great! Keep playing the game!"
+        delay (1000)
+        end for
+        put "Then the computer makes you restart because you are a jerk >:D"
+        colour (12)
+            put "GAME OVER!"
+            put "Type [0] to restart"
+            get res
+            sfm := 1
+            cls
+        end if
 
     end loop
 end loop
