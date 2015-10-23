@@ -12,6 +12,10 @@ Clock, Choose Your Own Adventure Epic!, Draw.Mario, Dungeon Quest, (F)ART, Gamba
 Contributed to:
 Choose Your Own Adventure Epic!, Wiki
 <hr>
+<a href="https://github.com/sonason" target="_blank">sonason</a>
+Contributed to:
+Choose Your Own Adventure Epic! (developer)
+<hr>
 
 #List of Projects in this Repository
 
