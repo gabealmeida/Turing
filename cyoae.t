@@ -868,6 +868,15 @@ loop
             sfm := 1
             cls
         end if
+        
+        if input = 48 then
+        put "You try that level again."
+        put "Come on Smash the Bandihog Plumber, DO THE JUMP THING!"
+        put "You do a wicked cheat code combo really fast to jump, but when you do, you tear your fingers off!"
+        put "Well, that's enough videogames for today, might as well go outside for some fresh, fresh air!"
+        put "Type [73] to continue"
+        get input
+        end if
 
         if input = 49 then
             put "Okay then."
@@ -880,23 +889,7 @@ loop
         else
         end if
 
-        % Will think of something else for this - Raf
-        % if input = '51' then
-        % put "*slurping noises*"
-        % put "Okay, I know that we're in a video game..."
-        % put "*slurping noises*"
-        % put "...But come on! This isn't Mario Simulator!"
-        % put "Hey! I thought that you're supposed to be in MSTE!"
-        % put "Hey - does it look like I care?"
-        % put "Okay, he'll shut th-"
-        % put "Whoops! Looks like you just bursted from eating all of that spaghetti!"
-        %   colour (12)
-        %             put "GAME OVER!"
-        %             put "Type [0] to restart"
-        %             get res
-        %             sfm := 1
-        %             cls
-        %         end if
+        
 
 
     end loop
