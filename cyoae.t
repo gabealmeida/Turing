@@ -902,7 +902,20 @@ loop
             put "Type [74] to continue"
             get input
         end if
-
+        
+        if input = 51 then
+        put "Spinnin' Spaghetti, eh?"
+        put "Okay, whatever floats your boat, I just wanted to say that their meatballs are gross."
+        put "You walk to Mario & Luigi's"
+        put "(Hmm, those names seem familiar...)"
+        put "You walk in where you are greeted by a small man wearing a mushroom on his head."
+        put "''Hi there!'' he says in his shrieking voice"
+        put "''Can I take your coat?''"
+        put "What will you do?"
+        put "Give strange man your coat [75]"
+        put "Keep your coat, this place gives you a creepy vibe [76]"
+        get input
+        end if
 
     end loop
 end loop
