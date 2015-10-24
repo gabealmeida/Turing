@@ -827,7 +827,7 @@ loop
         end if
 
         if input = 45 then
-            put "Sicne your stubborness is getting you nowhere, you sit down and you try to tie them again."
+            put "Since your stubborness is getting you nowhere, you sit down and you try to tie them again."
             put "You tie your shoes and GET THEM RIGHT!"
             %    put "achivement"
             put "Where do you want to go now that you've tied your shoes?"
@@ -868,14 +868,14 @@ loop
             sfm := 1
             cls
         end if
-        
+
         if input = 48 then
-        put "You try that level again."
-        put "Come on Smash the Bandihog Plumber, DO THE JUMP THING!"
-        put "You do a wicked cheat code combo really fast to jump, but when you do, you tear your fingers off!"
-        put "Well, that's enough videogames for today, might as well go outside for some fresh, fresh air!"
-        put "Type [73] to continue"
-        get input
+            put "You try that level again."
+            put "Come on Smash the Bandihog Plumber, DO THE JUMP THING!"
+            put "You do a wicked cheat code combo really fast to jump, but when you do, you tear your fingers off!"
+            put "Well, that's enough videogames for today, might as well go outside for some fresh, fresh air!"
+            put "Type [73] to continue"
+            get input
         end if
 
         if input = 49 then
@@ -889,7 +889,19 @@ loop
         else
         end if
 
-        
+        if input = 50 then
+            put "Yes, let's go to Taco Hut, they have the BEST tacos!"
+            put "Do you know why it's called Taco Hut? Because the first taco was served in a hut."
+            put "(Or was it that is was served with a nut? Who knows, that stuff is history)"
+            put "So you walk to the nearby Taco Hut."
+            for i : 1 .. 5
+                delay (1000)
+                put "."
+            end for
+            put "Yay! We're here! Can you order me a quasadila with extra sour cream?"
+            put "Type [74] to continue"
+            get input
+        end if
 
 
     end loop
