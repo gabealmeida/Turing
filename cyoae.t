@@ -819,7 +819,7 @@ loop
         if input = 44 then
             put "You walk into the Taco Hut."
             put "What will you do now?"
-            put
+            put 
                 "Order a Quintuple-Fried Triple Bypass Burrito with Quadruple-Deep-Fried tortilla bread drizzed in chocolate     (comes with Jumbo-Sized Nachos, small fountain drink, and free fast-track admission to local hospital) [68]"
             put "Go to the bathroom, I really have to go! [69]"
             put "Grab a seat, my legs are tired [70]"
@@ -852,22 +852,52 @@ loop
             sfm := 1
             cls
         end if
-        
+
         if input = 47 then
-        put "Is that how it's gonna be? Okay then."
-        put "The computer makes you tie your shoes, then forces you to chant that it is great."
-        for i : 1 .. 20
-        put "Computer is great! Keep playing the game!"
-        delay (1000)
-        end for
-        put "Then the computer makes you restart because you are a jerk >:D"
-        colour (12)
+            put "Is that how it's gonna be? Okay then."
+            put "The computer makes you tie your shoes, then forces you to chant that it is great."
+            for i : 1 .. 20
+                put "Computer is great! Keep playing the game!"
+                delay (1000)
+            end for
+            put "Then the computer makes you restart because you are a jerk >:D"
+            colour (12)
             put "GAME OVER!"
             put "Type [0] to restart"
             get res
             sfm := 1
             cls
         end if
+
+        if input = 49 then
+            put "Okay then."
+            put "You start walking over to the bus stop."
+            put "Oh no! The bus is starting to drive away!"
+            put "Will you go after the bus?"
+            put "Yeah! [71]"
+            put "Nah, I'll wait for the next bus... [72]"
+            get input
+        else
+        end if
+
+        % Will think of something else for this - Raf
+        % if input = '51' then
+        % put "*slurping noises*"
+        % put "Okay, I know that we're in a video game..."
+        % put "*slurping noises*"
+        % put "...But come on! This isn't Mario Simulator!"
+        % put "Hey! I thought that you're supposed to be in MSTE!"
+        % put "Hey - does it look like I care?"
+        % put "Okay, he'll shut th-"
+        % put "Whoops! Looks like you just bursted from eating all of that spaghetti!"
+        %   colour (12)
+        %             put "GAME OVER!"
+        %             put "Type [0] to restart"
+        %             get res
+        %             sfm := 1
+        %             cls
+        %         end if
+
 
     end loop
 end loop
