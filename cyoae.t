@@ -916,6 +916,18 @@ loop
         put "Keep your coat, this place gives you a creepy vibe [76]"
         get input
         end if
+        
+        if input = 52 then
+            put "So it's Pineapple Burger then?"
+            put "You walk to Pineapple Burger and when you get there, pineapples are protesting against the resturant!"
+            put "Their signs say 'Pineapples Matter!' and 'Pineapple Canabalists!'"
+            put "I hope they know that Pineapple Burger uses synthetic pineapple slices!"
+            put "What will you do?"
+            put "Put facts aside and protest with them! [78]"
+            put "Tell those dumb pineapples that they're dumb and that they should have never advanced to where they are now in  society [79]"
+            put "Leave [77]"
+            get input
+        end if
 
     end loop
 end loop
