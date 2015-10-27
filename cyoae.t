@@ -946,6 +946,9 @@ loop
         put "Screw it, I'm just gonna walk to Taco Hut [82]"
         get input 
         end if
+        
+        % if input = 55 then
+        % put "Oh fine, let's not take a bus to Super Taco Hut."
 
     end loop
 end loop
