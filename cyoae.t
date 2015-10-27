@@ -963,6 +963,18 @@ loop
             put "PULL OVER [86]"
             get input
         end if
+        
+        if input = 57 then
+            put "Ooh, someone's greedy, eh?"
+            put "You grab your  Homer(C) Brand ''Outta Sight!'' baseball bat"
+            put "(Remember kids, if it ain't Homer(C), it ain't gonna do a homer either!)"
+            put "You also grab a mask of Jerry Seinfeld and put it on your face to protect your identity."
+            put "But which bank will you rob?"
+            put "Townville City Credit Union [87]"
+            put "First Bank of Pineappleia [88]"
+            put "Silverman Sacs [89]"
+            get input
+        end if
 
     end loop
 end loop
