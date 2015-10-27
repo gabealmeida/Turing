@@ -928,6 +928,15 @@ loop
             put "Leave [77]"
             get input
         end if
+        
+        if input = 53 then
+        put "YOU RUN FOR THE BUS AND SCREAM AT THE SAME TIME BECAUSE AHHHHHHHHHHHHHHHHHHHHHHHHHHHH!"
+        put "LUCKILY THE BUS DRIVER SLOWS DOWN ENOUGH FOR YOU TO CATCH UP TO IT."
+        put "You get in the bus but IT'S FULL OF OLD PEOPLE!"
+        put "The bus starts to drive, and now you're headed to Florida..."
+        put "Type [80] to continue"
+        get input
+        end if
 
     end loop
 end loop
