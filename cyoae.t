@@ -937,6 +937,15 @@ loop
         put "Type [80] to continue"
         get input
         end if
+        
+        if input = 54 then
+        put "You run but don't scream, expecting that the bus driver will see you."
+        put "But the bus driver is an old man!"
+        put "What will you do now?"
+        put "Wave my hands and tell him to pull over! [81]"
+        put "Screw it, I'm just gonna walk to Taco Hut [82]"
+        get input 
+        end if
 
     end loop
 end loop
