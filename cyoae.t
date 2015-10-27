@@ -953,16 +953,6 @@ loop
             put "Type [74] to continue"
             get input
         end if
-        
-        if input = 56 then
-            put "WEEE WOOO WEEE WOOO! GOES THE POLICE SIRENS IN THE DISTANCE!"
-            put "OH MAN OH JEEZ WHAT ARE WE GONNA DO WITH THESE COPPERS MAN!?"
-            put "OH MAN OH JEEZ [83]"
-            put "THROW SOMETHING AT THE COPPERS! [84]"
-            put "TAKE 'EM OFF COURSE! [85]"
-            put "PULL OVER [86]"
-            get input
-        end if
 
     end loop
 end loop
