@@ -14,7 +14,7 @@ Choose Your Own Adventure Epic!, Wiki
 <hr>
 <a href="https://github.com/sonason" target="_blank">sonason</a>
 Contributed to:
-Choose Your Own Adventure Epic! (developer)
+Choose Your Own Adventure Epic!, Mario Simulator Turing Edition (developer)
 <hr>
 
 #List of Projects in this Repository
@@ -108,6 +108,19 @@ Last Updated Sep 24, 2015
 Description
 <br>
 Counts all the numbers from 1 to a specified number
+<hr>
+
+<a href="https://github.com/NotNemesis/Turing/blob/sonason-patch-1/Mason/Mario%20Simulator%20Turing%20Edition.t" target="_blank">Mario Simulator Turing Edition</a>
+<br>
+Contributors : sonason
+<br>
+Version : v0.1
+<br>
+Last Updated Oct 26, 2015
+<br>
+Description
+<br>
+< >
 <hr>
 
 <a href="https://github.com/NotNemesis/Turing/blob/master/Rafael/periodical.t" target="_blank">Periodical</a>
