@@ -947,8 +947,12 @@ loop
         get input 
         end if
         
-        % if input = 55 then
-        % put "Oh fine, let's not take a bus to Super Taco Hut."
+        if input = 55 then
+            put "Oh fine, let's not take a bus to Super Taco Hut."
+            put "You walk to the regular Taco Hut which isn't too far away."
+            put "Type [74] to continue"
+            get input
+        end if
 
     end loop
 end loop
