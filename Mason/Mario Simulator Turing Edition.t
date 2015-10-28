@@ -1,5 +1,5 @@
 var cyoae : int := Window.Open ("position:center;center,graphics:1100;1000,nobuttonbar") %Adjust the screen size if needed%
-View.Set ("title:Mario Simulatior Turing Edition DEMO")
+View.Set ("title:Mario Simulatior Turing Edition Alpha")
 
 %%%%%%%%%% Variables %%%%%%%%%%
 var start : string
@@ -11,7 +11,7 @@ var code3 : string
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%% Text colouring %%%%%%%%%%
 colour (white)
-colourback (7)
+colourback (red)
 cls
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -20,7 +20,7 @@ cls
 put "Mario Simulatior Turing Edition DEMO"
 put "By Sonason"
 put ""
-put "Version 0.1"
+put "Version 0.2"
 put "Type [B] to start your adventure!"
 put "Type [M] for menu"
 put ""
@@ -67,7 +67,7 @@ cls
     put "Very special thanks NotNemesis for the support and code!"
     delay (999)
     colour (white)
-    put "Paterson Inc. (C) 2014"
+    put "Pulse Labs (C) 2014"
     colour (42)
     put "[B] to start game"
     put ""
@@ -82,7 +82,11 @@ if start = "2" then
     colour (42)
     put "October 2, 2015"
     colour (white)
-    put "First alpha!"
+    put "First alpha!(Alpha 1)"
+    colour (42)
+    put "November 1, 2015"
+    colour (white)
+    put "Expanded story!(Alpha 2)"
     put "[B] to start game"
     put ""
     get start
@@ -91,8 +95,7 @@ end if
 
 %%%%%% game %%%%%%%
 if start = "B" or start = "b" then
-    put ""
-    colour (yellow)
+put ""
     put "Hello and welcome to Mario Simulator: Turing Edition!"
     put "You will start by noticing options to follow."
     put "Type the number in to go to that option."
@@ -119,7 +122,6 @@ end if
     
 if input = "1" then
 put ""
-    color (white)
 put "Mario:"
     delay (999)
     put "Hey, stinky!"
@@ -129,15 +131,12 @@ put "Mario:"
     colour (12)
     put "GAME OVER, YEAH!"
     delay (500)
-    colour (yellow)
     put "What the heck!?"
     end if
    
 if input = "2" then
     put ""
-    color (white)
  put "Mario: 'Eating noises'"
- color (yellow)
     put "Seriously!?"
     delay (999)
     put "You're eating that stuff of all times NOW?"
@@ -151,10 +150,8 @@ end if
 
 if input = "3" then
     put ""
-    color (white)
     put "Mario: 'Eating noises'"
     delay (999)
-    color (yellow)
     put "Okay, I can wait for you to finish eating."
     delay (999)
     put "It's not like the entire Mushroom Kingdom is at risk..."
@@ -171,20 +168,15 @@ if input = "4" then
     color (white)
     put "Mario: 'Eating noises'"
     delay (999)
-    color (yellow)
     put "Seriouly, how much longer do you have to eat!?"
     delay (999)
-   color (white)
      put "Mario:"
     put "Hey, I'm hungry!"
     delay (999)
-        color (yellow)
     put "Well, maybe this will make you hurry up!"
     delay (2000)
- color (white)
       put "Mario:"
     put "Wait, where'd that bomb-"
-      color (yellow)
       delay (500)
     put "BOOM!"
      delay (1500)
@@ -193,7 +185,7 @@ if input = "4" then
 end if
 
 if input = "5" then
-    put ""
+put ""
     put "Phone: 'Rings'"
     delay (999)
     put "Toad:(on phone)"
@@ -278,7 +270,7 @@ if input = "8" then
     put "Mario:"
     put "AW YEAH! KART TIME!"
     put "'start uninspired car chase'"
-    delay (2000)
+    delay (3000)
     put "'police sirens'"
     delay (999)
     put "Mario:"
@@ -406,7 +398,7 @@ put "Officer:"
     put "Great! Prison! Thanks, guys!"
      delay (1500)
     colour (12)
-    put "GAME OVER, YEA!"
+    put "GAME OVER, YEA-"
     color (white)
     put "Mario:"
     put "Ah, SHADDAP!"
@@ -420,14 +412,14 @@ put "Officer:"
     delay (500)
     put "'Warp Pipe sound'"
     delay (1500)
-    put "'warp pipe sound"
+    put "'Warp pipe sound"
     put "Mario:"
     put "Oof!"
     delay (500)
 put "Mario:"
 put "Well, looks like I'm on foot from here..."
 delay (999)
-put "Please press '?' to continue."
+put "Please press '17' to continue."
     get input
     else
     end if
@@ -451,7 +443,7 @@ put "Please press '?' to continue."
     put "Mario:"
     put "If this keeps up, I'm never gonna save her in time!"
    delay (999)
-   put "Curry!(16)"
+   put "Use Curry!(16)"
     get input
     else
     end if
@@ -464,13 +456,130 @@ put "Please press '?' to continue."
     delay (999)
     put "Yoshi:"
     put "?"
+    delay (999)
+    put "Yoshi:"
+    put "AUGH! HOT! HOT!"
+    delay (999)
     put "Mario:"
     put "Oof!"
     delay (500)
 put "Mario:"
 put "Well, looks like I'm on foot from here..."
 delay (999)
-put "Please press '?' to continue."
+put "Please press '17' to continue."
     get input
     else
     end if
+
+    if input = "17" then
+    put ""
+    put "Mario:"
+    put "Well, how coincidental: a town in the middle of nowhere!"
+    delay (1500)
+    put "Old Lady:"
+    put "Oh god! Please help me!"
+   put "My poor cat is up there!"
+     delay (999)
+    put "Mario:"
+     put "Jeez, I'm torn: I know I have to save Peach..."
+     delay (999)
+    put "...but I can't leave that cat up there!"
+    delay (999)
+    put "What do I do!?"
+delay (999)
+put "I got a princess to save!(18)"
+delay (999)
+put "Help the old lady!(19)"
+    get input
+    else
+    end if
+
+    
+ if input = "18" then
+    put ""
+    put "Mario:"
+    put "I'm really sorry ma'm! I've got a princess to rescue!"
+    delay (2000)
+    put "Eep! A Chain Chomp!"
+    put "Little Girl:"
+   put "Oh no! Chompy got off his leash!"
+delay (999)
+put "Do the Saftey Dance!(20)"
+delay (999)
+put "Throw stuff at it!(21)"
+    get input
+    else
+    end if
+
+    
+    if input = "19" then
+    put ""
+    put "Mario:"
+    put "I can spare a few minutes..."
+    delay (5000)
+    put "A few minutes later..."
+    put "Old Lady:"
+   put "Thank you sir! Here, it's not much..."
+  delay (2000)
+  put "You got a stick and 5 coins!"
+  delay (999)
+    put "Mario:"
+  put "Eep! A Chain Chomp!"
+  delay (999)
+    put "Little Girl:"
+   put "Oh no! Chompy got off his leash!"
+delay (999)
+put "Do the Saftey Dance!(20)"
+delay (999)
+put "Throw stuff at it!(21)"
+delay (999)
+put "Use the stick!(22)"
+    get input
+    else
+    end if
+
+    if input = "20" then
+put ""
+put "Mario:"
+    put "SAFETY DANCE TIME!"
+    delay (500)
+    put "'put music that fits with scenario here'"
+    delay (2000)
+    put "Mario is now safe from everything!"
+    delay (999)
+    put "...except for Chain Chomps."
+    delay (1500)
+    colour (12)
+    put "GAME OVER, YEAH!"
+    end if
+
+    
+    if input = "21" then
+put ""
+put "Mario:"
+    put "Stay back you! I'm armed!"
+    delay (500)
+    put "There goes the coins..."
+    delay (500)
+    put "Where'd I get a Mushroom!?"
+    delay (500)
+    put "C'mon, there's gotta be something somewhere..."
+    delay (500)
+    put "Super Star? Now I'm dead."
+    delay (999)
+    put "Chompy:"
+    put "WOOF!"
+    delay (1500)
+    colour (12)
+    put "GAME OVER, YEAH!"
+    end if
+
+    
+if input = "22" then
+put ""
+    put "Hello and thank you for playing the Alpha!"
+    put "This is the end for now, but expect updates soon!"
+    put "Bye!"
+    put "-Sonason, dev"
+end if
+
