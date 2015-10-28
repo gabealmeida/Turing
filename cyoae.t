@@ -1,4 +1,5 @@
 % Choose Your Own Adventure Epic! By Rafael (NotNemesis), Mason (sonason), and Kernen (Minecrafitian47)
+% This game uses a modified version of SATCA v0.2
 
 % Variables %
 var w_play : int := Window.Open ("position:center;center,graphics:900;600,nobuttonbar") %Adjust the screen size if needed%
