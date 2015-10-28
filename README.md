@@ -120,7 +120,7 @@ Last Updated Oct 26, 2015
 <br>
 Description
 <br>
-< >
+It's your typical day in the Mushroom Kngdom: Peach has once again been kidnapped! Can Mario save her? Based on video by SMG4
 <hr>
 
 <a href="https://github.com/NotNemesis/Turing/blob/master/Rafael/periodical.t" target="_blank">Periodical</a>
