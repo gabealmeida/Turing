@@ -14,7 +14,7 @@ Choose Your Own Adventure Epic!, Wiki
 <hr>
 <a href="https://github.com/sonason" target="_blank">sonason</a>
 Contributed to:
-Choose Your Own Adventure Epic!, Mario Simulator Turing Edition (developer)
+Choose Your Own Adventure Epic!, Mario Simulator Turing Edition, Team Fortress: Heavy's Quest for the Sandvich (developer)
 <hr>
 
 #List of Projects in this Repository
@@ -199,4 +199,17 @@ Last Updated Oct 15, 2015
 Description
 <br>
 Fight against your friends and enemies with over 30 (planned) characters!
+<hr>
+
+<a href="https://github.com/NotNemesis/Turing/blob/master/Mason/https://github.com/NotNemesis/Turing/blob/master/Mason/Team%20Fortress:%20Heavy's%20Quest%20for%20the%20Sandvich.t" target="_blank">Team Fortress: Heavy's Quest for the Sandvich</a>
+<br>
+Contributors : sonason
+<br>
+Version : < >
+<br>
+Last Updated Oct 29, 2015
+<br>
+Description
+<br>
+< >
 <hr>
