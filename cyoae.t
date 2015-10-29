@@ -976,6 +976,19 @@ loop
 	    put "Silverman Sacs [89]"
 	    get input
 	end if
+	
+	if input = 58 then 
+	put "Kidnapping, ooh! That sounds like FUN!"
+	put "But who would you kidnap? This might be harder than you think..."
+	put "Plus, we don't want to do anything TOO illegal."
+	put "And I'm too good-looking for jail!"
+	put "Maybe we should stick to stealing something that isn't people..."
+	put "What will you steal?"
+	put "Digital Media, Hollywood doesn't need more money! [90]"
+	put "Tacos Tacos Tacos! [91]"
+	put "Let's steal a pineapple from city hall! [92]"
+	get input
+	end if
 
     end loop
 end loop
