@@ -938,6 +938,7 @@ loop
 	end if
 
 	if input = 51 then
+	    put ""
 	    put "Spinnin' Spaghetti, eh?"
 	    put "Okay, whatever floats your boat, I just wanted to say that their meatballs are gross."
 	    put "You walk to Mario & Luigi's"
@@ -948,10 +949,12 @@ loop
 	    put "What will you do?"
 	    put "Give strange man your coat [75]"
 	    put "Keep your coat, this place gives you a creepy vibe [76]"
+	    put ""
 	    get input
 	end if
 
 	if input = 52 then
+	    put ""
 	    put "So it's Pineapple Burger then?"
 	    put "You walk to Pineapple Burger and when you get there, pineapples are protesting against the resturant!"
 	    put "Their signs say 'Pineapples Matter!' and 'Pineapple Canabalists!'"
@@ -960,45 +963,55 @@ loop
 	    put "Put facts aside and protest with them! [78]"
 	    put "Tell those dumb pineapples that they're dumb and that they should have never advanced to where they are now in  society [79]"
 	    put "Leave [77]"
+	    put ""
 	    get input
 	end if
 
 	if input = 53 then
+	    put ""
 	    put "YOU RUN FOR THE BUS AND SCREAM AT THE SAME TIME BECAUSE AHHHHHHHHHHHHHHHHHHHHHHHHHHHH!"
 	    put "LUCKILY THE BUS DRIVER SLOWS DOWN ENOUGH FOR YOU TO CATCH UP TO IT."
 	    put "You get in the bus but IT'S FULL OF OLD PEOPLE!"
 	    put "The bus starts to drive, and now you're headed to Florida..."
 	    put "Type [80] to continue"
+	    put ""
 	    get input
 	end if
 
 	if input = 54 then
+	    put ""
 	    put "You run but don't scream, expecting that the bus driver will see you."
 	    put "But the bus driver is an old man!"
 	    put "What will you do now?"
 	    put "Wave my hands and tell him to pull over! [81]"
 	    put "Screw it, I'm just gonna walk to Taco Hut [82]"
+	    put ""
 	    get input
 	end if
 
 	if input = 55 then
+	    put ""
 	    put "Oh fine, let's not take a bus to Super Taco Hut."
 	    put "You walk to the regular Taco Hut which isn't too far away."
 	    put "Type [74] to continue"
+	    put ""
 	    get input
 	end if
 
 	if input = 56 then
+	    put ""
 	    put "WEEE WOOO WEEE WOOO! GOES THE POLICE SIRENS IN THE DISTANCE!"
 	    put "OH MAN OH JEEZ WHAT ARE WE GONNA DO WITH THESE COPPERS MAN!?"
 	    put "OH MAN OH JEEZ [83]"
 	    put "THROW SOMETHING AT THE COPPERS! [84]"
 	    put "TAKE 'EM OFF COURSE! [85]"
 	    put "PULL OVER [86]"
+	    put ""
 	    get input
 	end if
 
 	if input = 57 then
+	    put ""
 	    put "Ooh, someone's greedy, eh?"
 	    put "You grab your  Homer(C) Brand ''Outta Sight!'' baseball bat"
 	    put "(Remember kids, if it ain't Homer(C), it ain't gonna do a homer either!)"
@@ -1007,10 +1020,12 @@ loop
 	    put "Townville City Credit Union [87]"
 	    put "First Bank of Pineappleia [88]"
 	    put "Silverman Sacs [89]"
+	    put ""
 	    get input
 	end if
 
 	if input = 58 then
+	    put ""
 	    put "Kidnapping, ooh! That sounds like FUN!"
 	    put "But who would you kidnap? This might be harder than you think..."
 	    put "Plus, we don't want to do anything TOO illegal."
@@ -1020,6 +1035,7 @@ loop
 	    put "Digital Media, Hollywood doesn't need more money! [90]"
 	    put "Tacos Tacos Tacos! [91]"
 	    put "Let's steal a pineapple from city hall! [92]"
+	    put ""
 	    get input
 	end if
 
