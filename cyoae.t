@@ -668,7 +668,7 @@ loop
 	end if
 
 	if input = 33 then
-	put ""
+	    put ""
 	    put "You walk to the bus station."
 	    put "It's not too far from your house, just a couple of blocks away from your house."
 
@@ -688,7 +688,7 @@ loop
 	end if
 
 	if input = 34 then
-	put ""
+	    put ""
 	    put "STEAL A CAR!!! WOO!!!"
 	    put "Oh wait... um... dude that's illegal..."
 	    put "Even in a videogame..."
@@ -704,7 +704,7 @@ loop
 	end if
 
 	if input = 35 then
-	put ""
+	    put ""
 	    put "LET'S GET YOUR CAREER INTO FIRST GEAR!"
 	    delay (1000)
 	    put "Um..."
@@ -719,7 +719,7 @@ loop
 	end if
 
 	if input = 36 then
-	put ""
+	    put ""
 	    put "I DON'T KNOW WHAT I'M DOING SO LET'S JUMP OUT OF A WINDOW!"
 	    put "YOU JUMP OUT OF THE WINDOW BUT TIME IT WRONG AND LAND ON AN OLD LADY'S CHIHUAHUA!"
 	    put "THE WEIGHT OF YOUR BODY CRUSHES THE POOR THING"
@@ -734,7 +734,7 @@ loop
 	end if
 
 	if input = 38 then
-	put ""
+	    put ""
 	    put "YEAH! You jump in the shiny stuff!"
 	    put "You try and taste the shiny stuff but you seem to swallow some by accident!"
 	    put "A dragon appears and tries to do the heimlich maneuver on you but it tears into your body with its claws instead..."
@@ -748,7 +748,7 @@ loop
 	end if
 
 	if input = 39 then
-	put ""
+	    put ""
 	    put "You turn around, only to find a monsterous dragon blocking your path."
 	    put "The dragon asks,'Oh, hello there darling! Are you here for my precious?"
 	    put "You reply that you were just leaving but the dragon doesn't believe you."
@@ -765,7 +765,7 @@ loop
 	end if
 
 	if input = 40 then
-	put ""
+	    put ""
 	    put "You say hi."
 	    for i : 1 .. 3
 		put "."
@@ -779,6 +779,7 @@ loop
 	end if
 
 	if input = 41 then
+	    put ""
 	    put "You stay behind the tires and hope that they find you."
 	    put "You fall (yawn) asleep..."
 	    put "Z" ..
@@ -792,12 +793,14 @@ loop
 	    colour (12)
 	    put "GAME OVER!"
 	    put "Type [0] to restart"
+	    put ""
 	    get res
 	    sfm := 1
 	    cls
 	end if
 
 	if input = 42 then
+	    put ""
 	    put "As you learned in some form of previous or current education, strangers are bad and you need to run away from them."
 	    put "You scream ''STRANGER DANGER!!!'' at the top of your lungs and start to run."
 	    put "One of the people from the camp starts to chase you saying ''Hey wait!''."
@@ -807,12 +810,14 @@ loop
 	    colour (12)
 	    put "GAME OVER!"
 	    put "Type [0] to restart"
+	    put ""
 	    get res
 	    sfm := 1
 	    cls
 	end if
 
 	if input = 43 then
+	    put ""
 	    put "Why fake an injury when you can get an actual injury ;D"
 	    put "(Trust me, I'm a professional)"
 	    put "You push one of the tires onto your foot and scream in actual pain."
@@ -827,20 +832,24 @@ loop
 	    delay (1000)
 	    put " earlier..."
 	    put "Type [67] to continue..."
+	    put ""
 	    get input
 	end if
 
 	if input = 44 then
+	    put ""
 	    put "You walk into the Taco Hut."
 	    put "What will you do now?"
-	    put 
+	    put
 		"Order a Quintuple-Fried Triple Bypass Burrito with Quadruple-Deep-Fried tortilla bread drizzed in chocolate     (comes with Jumbo-Sized Nachos, small fountain drink, and free fast-track admission to local hospital) [68]"
 	    put "Go to the bathroom, I really have to go! [69]"
 	    put "Grab a seat, my legs are tired [70]"
+	    put ""
 	    get input
 	end if
 
 	if input = 45 then
+	    put ""
 	    put "Since your stubborness is getting you nowhere, you sit down and you try to tie them again."
 	    put "You tie your shoes and GET THEM RIGHT!"
 	    %    put "achivement"
@@ -849,10 +858,12 @@ loop
 	    put "Taco Hut [50]"
 	    put "Mario & Luigi's Spinnin' Spaghettii Diner [51]"
 	    put "Pineapple Burger [52]"
+	    put ""
 	    get input
 	end if
 
 	if input = 46 then
+	    put ""
 	    put "Fine you big jerk! Don't tie your dumb shoes!"
 	    put "You tuck your laces into your shoes and start to leave the house."
 	    put "Just then, New Punidas, Lord of Shoes, appears!"
@@ -862,12 +873,14 @@ loop
 	    colour (12)
 	    put "GAME OVER!"
 	    put "Type [0] to restart"
+	    put ""
 	    get res
 	    sfm := 1
 	    cls
 	end if
 
 	if input = 47 then
+	    put ""
 	    put "Is that how it's gonna be? Okay then."
 	    put "The computer makes you tie your shoes, then forces you to chant that it is great."
 	    for i : 1 .. 20
@@ -878,32 +891,38 @@ loop
 	    colour (12)
 	    put "GAME OVER!"
 	    put "Type [0] to restart"
+	    put ""
 	    get res
 	    sfm := 1
 	    cls
 	end if
 
 	if input = 48 then
+	    put ""
 	    put "You try that level again."
 	    put "Come on Smash the Bandihog Plumber, DO THE JUMP THING!"
 	    put "You do a wicked cheat code combo really fast to jump, but when you do, you tear your fingers off!"
 	    put "Well, that's enough videogames for today, might as well go outside for some fresh, fresh air!"
 	    put "Type [73] to continue"
+	    put ""
 	    get input
 	end if
 
 	if input = 49 then
+	    put ""
 	    put "Okay then."
 	    put "You start walking over to the bus stop."
 	    put "Oh no! The bus is starting to drive away!"
 	    put "Will you go after the bus?"
 	    put "Yeah! [71]"
 	    put "Nah, I'll wait for the next bus... [72]"
+	    put ""
 	    get input
 	else
 	end if
 
 	if input = 50 then
+	    put ""
 	    put "Yes, let's go to Taco Hut, they have the BEST tacos!"
 	    put "Do you know why it's called Taco Hut? Because the first taco was served in a hut."
 	    put "(Or was it that is was served with a nut? Who knows, that stuff is history)"
@@ -914,23 +933,24 @@ loop
 	    end for
 	    put "Yay! We're here! Can you order me a quasadila with extra sour cream?"
 	    put "Type [74] to continue"
+	    put ""
 	    get input
 	end if
-	
+
 	if input = 51 then
-	put "Spinnin' Spaghetti, eh?"
-	put "Okay, whatever floats your boat, I just wanted to say that their meatballs are gross."
-	put "You walk to Mario & Luigi's"
-	put "(Hmm, those names seem familiar...)"
-	put "You walk in where you are greeted by a small man wearing a mushroom on his head."
-	put "''Hi there!'' he says in his shrieking voice"
-	put "''Can I take your coat?''"
-	put "What will you do?"
-	put "Give strange man your coat [75]"
-	put "Keep your coat, this place gives you a creepy vibe [76]"
-	get input
+	    put "Spinnin' Spaghetti, eh?"
+	    put "Okay, whatever floats your boat, I just wanted to say that their meatballs are gross."
+	    put "You walk to Mario & Luigi's"
+	    put "(Hmm, those names seem familiar...)"
+	    put "You walk in where you are greeted by a small man wearing a mushroom on his head."
+	    put "''Hi there!'' he says in his shrieking voice"
+	    put "''Can I take your coat?''"
+	    put "What will you do?"
+	    put "Give strange man your coat [75]"
+	    put "Keep your coat, this place gives you a creepy vibe [76]"
+	    get input
 	end if
-	
+
 	if input = 52 then
 	    put "So it's Pineapple Burger then?"
 	    put "You walk to Pineapple Burger and when you get there, pineapples are protesting against the resturant!"
@@ -942,32 +962,32 @@ loop
 	    put "Leave [77]"
 	    get input
 	end if
-	
+
 	if input = 53 then
-	put "YOU RUN FOR THE BUS AND SCREAM AT THE SAME TIME BECAUSE AHHHHHHHHHHHHHHHHHHHHHHHHHHHH!"
-	put "LUCKILY THE BUS DRIVER SLOWS DOWN ENOUGH FOR YOU TO CATCH UP TO IT."
-	put "You get in the bus but IT'S FULL OF OLD PEOPLE!"
-	put "The bus starts to drive, and now you're headed to Florida..."
-	put "Type [80] to continue"
-	get input
+	    put "YOU RUN FOR THE BUS AND SCREAM AT THE SAME TIME BECAUSE AHHHHHHHHHHHHHHHHHHHHHHHHHHHH!"
+	    put "LUCKILY THE BUS DRIVER SLOWS DOWN ENOUGH FOR YOU TO CATCH UP TO IT."
+	    put "You get in the bus but IT'S FULL OF OLD PEOPLE!"
+	    put "The bus starts to drive, and now you're headed to Florida..."
+	    put "Type [80] to continue"
+	    get input
 	end if
-	
+
 	if input = 54 then
-	put "You run but don't scream, expecting that the bus driver will see you."
-	put "But the bus driver is an old man!"
-	put "What will you do now?"
-	put "Wave my hands and tell him to pull over! [81]"
-	put "Screw it, I'm just gonna walk to Taco Hut [82]"
-	get input 
+	    put "You run but don't scream, expecting that the bus driver will see you."
+	    put "But the bus driver is an old man!"
+	    put "What will you do now?"
+	    put "Wave my hands and tell him to pull over! [81]"
+	    put "Screw it, I'm just gonna walk to Taco Hut [82]"
+	    get input
 	end if
-	
+
 	if input = 55 then
 	    put "Oh fine, let's not take a bus to Super Taco Hut."
 	    put "You walk to the regular Taco Hut which isn't too far away."
 	    put "Type [74] to continue"
 	    get input
 	end if
-	
+
 	if input = 56 then
 	    put "WEEE WOOO WEEE WOOO! GOES THE POLICE SIRENS IN THE DISTANCE!"
 	    put "OH MAN OH JEEZ WHAT ARE WE GONNA DO WITH THESE COPPERS MAN!?"
@@ -977,7 +997,7 @@ loop
 	    put "PULL OVER [86]"
 	    get input
 	end if
-	
+
 	if input = 57 then
 	    put "Ooh, someone's greedy, eh?"
 	    put "You grab your  Homer(C) Brand ''Outta Sight!'' baseball bat"
@@ -989,18 +1009,18 @@ loop
 	    put "Silverman Sacs [89]"
 	    get input
 	end if
-	
-	if input = 58 then 
-	put "Kidnapping, ooh! That sounds like FUN!"
-	put "But who would you kidnap? This might be harder than you think..."
-	put "Plus, we don't want to do anything TOO illegal."
-	put "And I'm too good-looking for jail!"
-	put "Maybe we should stick to stealing something that isn't people..."
-	put "What will you steal?"
-	put "Digital Media, Hollywood doesn't need more money! [90]"
-	put "Tacos Tacos Tacos! [91]"
-	put "Let's steal a pineapple from city hall! [92]"
-	get input
+
+	if input = 58 then
+	    put "Kidnapping, ooh! That sounds like FUN!"
+	    put "But who would you kidnap? This might be harder than you think..."
+	    put "Plus, we don't want to do anything TOO illegal."
+	    put "And I'm too good-looking for jail!"
+	    put "Maybe we should stick to stealing something that isn't people..."
+	    put "What will you steal?"
+	    put "Digital Media, Hollywood doesn't need more money! [90]"
+	    put "Tacos Tacos Tacos! [91]"
+	    put "Let's steal a pineapple from city hall! [92]"
+	    get input
 	end if
 
     end loop
