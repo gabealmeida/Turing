@@ -668,6 +668,7 @@ loop
 	end if
 
 	if input = 33 then
+	put ""
 	    put "You walk to the bus station."
 	    put "It's not too far from your house, just a couple of blocks away from your house."
 
@@ -687,6 +688,7 @@ loop
 	end if
 
 	if input = 34 then
+	put ""
 	    put "STEAL A CAR!!! WOO!!!"
 	    put "Oh wait... um... dude that's illegal..."
 	    put "Even in a videogame..."
@@ -697,10 +699,12 @@ loop
 	    put "WOO KIDDOS WHO CARES ABOUT PHYSICS I'M GOING HELLA FAST BABY!!!"
 	    put "BUT YOUR SELF-CONSIOUS COMPPUTER GAME HEARS SIRENS BLARING IN THE DISTANCE!!!"
 	    put "TYPE [56] TO CONTINUE!!!"
+	    put ""
 	    get input
 	end if
 
 	if input = 35 then
+	put ""
 	    put "LET'S GET YOUR CAREER INTO FIRST GEAR!"
 	    delay (1000)
 	    put "Um..."
@@ -710,10 +714,12 @@ loop
 	    put "Let's go kidnapping![58]"
 	    put "Murdering people is super fun![59]"
 	    put "I never wanted to be a bad guy![60]"
+	    put ""
 	    get input
 	end if
 
 	if input = 36 then
+	put ""
 	    put "I DON'T KNOW WHAT I'M DOING SO LET'S JUMP OUT OF A WINDOW!"
 	    put "YOU JUMP OUT OF THE WINDOW BUT TIME IT WRONG AND LAND ON AN OLD LADY'S CHIHUAHUA!"
 	    put "THE WEIGHT OF YOUR BODY CRUSHES THE POOR THING"
@@ -723,22 +729,26 @@ loop
 	    put "HIDE THE BODY [61]"
 	    put "BURY THE BODY [62]"
 	    put "RUN TO THE BUS STATION AND START A NEW LIFE [63]"
+	    put ""
 	    get input
 	end if
 
 	if input = 38 then
+	put ""
 	    put "YEAH! You jump in the shiny stuff!"
 	    put "You try and taste the shiny stuff but you seem to swallow some by accident!"
 	    put "A dragon appears and tries to do the heimlich maneuver on you but it tears into your body with its claws instead..."
 	    colour (12)
 	    put "YOU ARE DEAD!"
 	    put "Type [0] to restart"
+	    put ""
 	    get res
 	    sfm := 1
 	    cls
 	end if
 
 	if input = 39 then
+	put ""
 	    put "You turn around, only to find a monsterous dragon blocking your path."
 	    put "The dragon asks,'Oh, hello there darling! Are you here for my precious?"
 	    put "You reply that you were just leaving but the dragon doesn't believe you."
@@ -747,6 +757,7 @@ loop
 	    colour (12)
 	    put "YOU ARE DEAD!"
 	    put "Type [0] to restart"
+	    put ""
 	    get res
 	    sfm := 1
 	    cls
@@ -754,6 +765,7 @@ loop
 	end if
 
 	if input = 40 then
+	put ""
 	    put "You say hi."
 	    for i : 1 .. 3
 		put "."
@@ -762,6 +774,7 @@ loop
 	    put "Oh wait, you're still here... Behind the tires..."
 	    put "They didn't hear you, maybe you should walk up to them?"
 	    put "Type [66] to walk up to the people"
+	    put ""
 	    get input
 	end if
 
