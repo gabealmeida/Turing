@@ -114,9 +114,9 @@ Counts all the numbers from 1 to a specified number
 <br>
 Contributors : sonason
 <br>
-Version : v0.2
+Version : v0.3
 <br>
-Last Updated Oct 28, 2015
+Last Updated Oct 30, 2015
 <br>
 Description
 <br>
