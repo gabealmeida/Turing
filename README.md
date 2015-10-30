@@ -205,8 +205,8 @@ Fight against your friends and enemies with over 30 (planned) characters!
 <br>
 Contributors : sonason
 <br>
-Version :
-<0.1>
+Version : 0.1
+<br>
 Last Updated Oct 29, 2015
 <br>
 Description:
