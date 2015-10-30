@@ -84,9 +84,13 @@ if start = "2" then
     colour (white)
     put "First alpha!(Alpha 1)"
     colour (42)
-    put "November 1, 2015"
+    put "October 29, 2015"
     colour (white)
     put "Expanded story!(Alpha 2)"
+    colour (42)
+    put "October 30, 2015"
+    colour (white)
+    put "Expanded story!(Alpha 3)"
     put "[B] to start game"
     put ""
     get start
@@ -575,7 +579,94 @@ put "Mario:"
     end if
 
     
-if input = "22" then
+if input = "22" then  
+put ""
+    put "Mario:"
+    put "Oh yeah! The stick!"
+    delay (1000)
+    put "Chompy:"
+    put "?"
+  delay (2000)
+  put "Mario:"
+    put "Yeah! You want it?"
+  delay (500)
+    put "Go fetch!"
+  delay (999)
+    put "Oof! Aaah!"
+   delay (500)
+     put "'Warp Pipe sound'"
+     delay (500)
+     put "'Warp Pipe sound'"
+     delay (500)
+     put "Mario:"
+     put "Oof!"
+     delay (500)
+     put "Well, how convinient for the story: help!"
+delay (999)
+put "Spaghetti(23)"
+delay (999)
+put "Ask for directions(24)"
+delay (999)
+put "Ignore him(25)"
+    get input
+    else
+    end if
+    
+    if input = "23" then
+put ""
+put "Mario:"
+    put "Excuse me, do you have any spaghetti?"
+    delay (999)
+    put "Toad Guide:"
+     put "If you mean a fistfight, you got it!"
+    delay (999)
+    put "Mario:"
+    put "No! I asked if you have any spaghetti?"
+    delay (999)
+    put "Toad Guide:"
+     put "You asked for it!"
+    delay (999)
+     put "Mario:"
+    put "BWAAAAAAH!!!"
+    delay (999)
+    put "Technical dificulties, please stand by..."
+    delay (5000)
+     put "Toad Guide:"
+     put "There you go, you got it!"
+    delay (1500)
+    colour (12)
+    put "GAME OVER, YEAH!"
+    end if
+    
+    if input = "24" then
+    put ""
+    put "Mario:"
+    put "Excuse me, do you have directions to Bowser's castle?"
+    delay (999)
+   put "Toad Guide:"
+     put "You should ask that guy over there, he sells maps."
+    delay (999)
+    put "Mario:"
+    put "Thanks."
+    delay (999)
+    put "Please type '26' to continue."
+    get input
+    else
+    end if
+    
+    if input = "25" then
+    put ""
+    put "Mario:"
+    put "I'll bet he doesn't know the way."
+   delay (999)
+    put "Maybe that guy knows..."
+    delay (999)
+    put "Please type '26' to continue."
+    get input
+    else
+    end if
+
+if input = "26" then
 put ""
     put "Hello and thank you for playing the Alpha!"
     put "This is the end for now, but expect updates soon!"
