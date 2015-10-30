@@ -205,11 +205,11 @@ Fight against your friends and enemies with over 30 (planned) characters!
 <br>
 Contributors : sonason
 <br>
-Version : < >
+Version :
 <0.1>
 Last Updated Oct 29, 2015
 <br>
-Description
+Description:
 <br>
-< What happens when a hungry Russian is on the search for a sandwich in the American Desert? Based on Valve's 'Team Fortress 2>
+What happens when a hungry Russian is on the search for a sandwich in the American Desert? Based on Valve's 'Team Fortress 2
 <hr>
