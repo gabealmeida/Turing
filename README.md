@@ -188,6 +188,19 @@ Description
 Smaller version of Clock in Turing
 <hr>
 
+<a href="https://github.com/NotNemesis/Turing/blob/master/Rafael/snakey.t" target="_blank">Snakey</a>
+<br>
+Contributors : NotNemesis
+<br>
+Version : v2
+<br>
+Last Updated Oct 30, 2015
+<br>
+Description
+<br>
+Avoid crashing into yourself in this Snake-like game
+<hr>
+
 <a href="https://github.com/NotNemesis/Turing/tree/master/Rafael/SBA" target="_blank">Super Battle Arena!</a>
 <br>
 Contributors : NotNemesis
