@@ -1,6 +1,6 @@
-%View.Set ("graphics:1200;800")
-var art : int := Window.Open
-    ("graphics: 1200;820, title:SNAKEY, position:top, center")
+% Snakey By NotNemesis
+
+var win : int := Window.Open ("graphics: 1200;820, title:SNAKEY, position:top, center")
 var key : string (1)
 var x, y, poi : int
 var xinc, yinc : int
@@ -8,15 +8,17 @@ var xinc, yinc : int
 drawfillbox (0, 0, 1200, 800, red)
 drawfillbox (20, 20, 1180, 780, 0)
 
-
+loop
 x := 320
 y := 200
 xinc := 0
 yinc := 10
 poi := 0
+drawfillbox (0, 0, 1200, 800, red)
+drawfillbox (20, 20, 1180, 780, 0)
 
 loop
-    Window.Select (art)
+    Window.Select (win)
     exit when whatdotcolour (x, y) not= white
 
 
@@ -50,4 +52,6 @@ loop
 
 
 end loop
-
+delay (1000)
+cls
+end loop
