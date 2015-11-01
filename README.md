@@ -36,7 +36,7 @@ Clock program made in Turing.
 <br>
 Contributors : NotNemesis, sonason, Minecraftian47
 <br>
-Version : v34.2
+Version : v35
 <br>
 Last Updated Nov 1, 2015
 <br>
