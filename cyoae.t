@@ -1059,6 +1059,14 @@ loop
         if input = 59 then
         put ""
         put "Ooh! Murdermurdermurder!"
+        put "I've always wanted to do it!!!"
+        put "But your computer game with a sub-consious tells you no."
+        put "Aww, but why? >:("
+        put "Your computer game tells you how bad killing is, gives you the pros and cons about jail, and then hands you a pamphet on prison"
+        put "Why thank you CYOAE! You've set me on the right path!"
+        put "As a treat, CYOAE tells you to go to Taco Hut as a treat!"
+        put "Type [74] to continue"
+        put ""
         get input
         end if
         
