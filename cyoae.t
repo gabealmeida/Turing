@@ -4,7 +4,7 @@
 % Variables %
 var w_play : int := Window.Open ("position:center;center,graphics:900;600,nobuttonbar") %Adjust the screen size if needed%
 View.Set ("title:Choose Your Own Adventure Epic!")
-var v_menu : string
+var v_menu : int
 var input, res : int
 var sfm : int := 1
 
@@ -19,8 +19,8 @@ loop
         put "Choose Your Own Adventure Epic!"
         put "By NotNemesis"
         put ""
-        put "Type [B] to start your adventure!"
-        put "Type [M] for menu"
+        put "Type [0] to start your adventure!"
+        put "Type [1] for menu"
         put ""
         sfm := 0
         get v_menu
@@ -28,15 +28,15 @@ loop
     % Menu %
 
     loop
-        if v_menu = "m" or v_menu = "M" then
+        if v_menu = 1 then
             put ""
-            put "CREDITS [1]"
+            put "CREDITS [2]"
             delay (200)
-            put "NEWS [2]"
+            put "NEWS [3]"
             delay (200)
-            put "CODE [3]"
+            put "CODE [4]"
             delay (200)
-            put "START GAME [B]"
+            put "START GAME [0]"
             delay (200)
             put "TYPE YOUR CHOICE."
             put ""
@@ -44,7 +44,7 @@ loop
         else
         end if
 
-        if v_menu = "1" then
+        if v_menu = 2 then
             put ""
             put "Choose Your Own Adventure Epic!"
             delay (999)
@@ -71,14 +71,14 @@ loop
             colour (white)
             put "NotNemesis (C) 2015"
             colour (42)
-            put "[B] to start game or give a menu command [1,2,3]"
+            put "[0] to start game or give a menu command [2,3,4]"
             put ""
             colour (white)
             get v_menu
         else
         end if
 
-        if v_menu = "2" then
+        if v_menu = 3 then
             put ""
             colour (14)
             put "NEWS"
@@ -98,34 +98,43 @@ loop
             put "Now in 1.2 Alpha!"
             put "I added a menu for extra functions. There's credits, news (this), and something else that you might want to check out."
             put ""
-            put "[B] to start game or give a menu command [1,2,3]"
+            put "[0] to start game or give a menu command [2,3,4]"
             put ""
             get v_menu
         end if
 
-        if v_menu = "3" then
+        if v_menu = 4 then
             put ""
             colour (12)
             put "1042"
             colour (white)
-            put "[B] to start game or give a menu command [1,2,3]"
+            put "[0] to start game or give a menu command [2,3,4]"
             put ""
             get v_menu
         end if
 
-        if v_menu = "johncena" or v_menu = "JOHNCENA" then
+        if v_menu = 5 then
             put "AND HIS NAME IS JOHN CENA!!!"
             put "DUDUDUDUUUUU! DUDUDUDUUUU!"
             put ""
             get v_menu
         end if
-
-        if v_menu = "B" or v_menu = "b" then
-            exit
-        else
-            put "Error 091303 : Invalid Menu Command, Please input a valid menu command"
+        
+        if v_menu = 6 then
+            put "DOOT DOOT SAYS THE SPOOKIE SKELETON"
+            put ""
             get v_menu
         end if
+
+        if v_menu = 0 then
+            exit
+        end if
+        
+        if v_menu > 6 then
+        put "ERROR badinput, PLEASE PUT VALID COMMAND"
+        get v_menu
+        end if
+
     end loop
 
     % Game %
@@ -135,15 +144,15 @@ loop
             put "Choose Your Own Adventure Epic!"
             put "By NotNemesis"
             put ""
-            put "Type [B] to start your adventure!"
-            put "Type [M] for menu"
+            put "Type [0] to start your adventure!"
+            put "Type [1] for menu"
             put ""
             sfm := 0
             get v_menu
         end if
 
-        if v_menu = "b" or v_menu = "B" then
-            v_menu := "c"
+        if v_menu = 0 then
+            v_menu := 88
             sfm := 0
             put ""
             colour (white)
@@ -1042,10 +1051,16 @@ loop
         end if
         
         % please keep the next lines of comments it holds together this fabric of space and time
-        %         drrafaelrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-        %         drrafaelrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-        %         drrafaelrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+        %         drrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+        %         drrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+        %         drrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
         %         ///////////////////////////////////////////////////////
+        
+        if input = 59 then
+        put ""
+        put "Ooh! Murdermurdermurder!"
+        get input
+        end if
         
     end loop
 end loop
