@@ -20,7 +20,7 @@ cls
 put "Mario Simulatior Turing Edition DEMO"
 put "By Sonason"
 put ""
-put "Version 0.2"
+put "Version Alpha 4.1"
 put "Type [B] to start your adventure!"
 put "Type [M] for menu"
 put ""
@@ -47,7 +47,7 @@ if start = "1" then
 cls
     put ""
     put "Mario Simulatior Turing Edition"
-    put "Version 4"
+    put "Version 4.1"
     delay (999)
     colour (9)
     put "ORIGINAL CODE"
@@ -86,15 +86,19 @@ if start = "2" then
     colour (42)
     put "October 29, 2015"
     colour (white)
-    put "Expanded story!(Alpha 2)"
+    put "Can you survive a Chain Chomp?(Alpha 2)"
     colour (42)
     put "October 30, 2015"
     colour (white)
-    put "Expanded story!(Alpha 3)"
+    put "Find a way to Bowser's Base!(Alpha 3)"
        color (42)
     put "November 2, 2015"
     colour (white)
     put "Start you journey to Port Toadstool!(Alpha 4)"
+        color (42)
+    put "November 2, 2015"
+    colour (white)
+    put "Minor edits.(Alpha 4.1)"
     put "[B] to start game"
     put ""
     get start
@@ -764,3 +768,4 @@ put ""
     put "Bye!"
     put "-Sonason, dev"
 end if
+
