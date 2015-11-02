@@ -47,7 +47,7 @@ if start = "1" then
 cls
     put ""
     put "Mario Simulatior Turing Edition"
-    put "DEMO Version"
+    put "Version 4"
     delay (999)
     colour (9)
     put "ORIGINAL CODE"
@@ -67,7 +67,7 @@ cls
     put "Very special thanks NotNemesis for the support and code!"
     delay (999)
     colour (white)
-    put "Pulse Labs (C) 2014"
+    put "MadOctopus (C) 2015"
     colour (42)
     put "[B] to start game"
     put ""
@@ -91,6 +91,10 @@ if start = "2" then
     put "October 30, 2015"
     colour (white)
     put "Expanded story!(Alpha 3)"
+       color (42)
+    put "November 2, 2015"
+    colour (white)
+    put "Start you journey to Port Toadstool!(Alpha 4)"
     put "[B] to start game"
     put ""
     get start
@@ -99,6 +103,7 @@ end if
 
 %%%%%% game %%%%%%%
 if start = "B" or start = "b" then
+cls
 put ""
     put "Hello and welcome to Mario Simulator: Turing Edition!"
     put "You will start by noticing options to follow."
@@ -109,6 +114,7 @@ else
 end if
 
 if input = "0" then
+cls
     put ""
     put "Our story starts with the princess once again being kidnapped by Bowser."
     put "What will Mario do now?"
@@ -666,11 +672,95 @@ put "Mario:"
     else
     end if
 
-if input = "26" then
+    if input = "26" then  
+put ""
+    put "Mario:"
+    put "Excuse me sir, do you know how to get to Bowser's castle?"
+    delay (999)
+    put "Salesman:"
+    put "Why yes! How about this map for 5 coins?"
+  delay (999)
+  put "Mario:"
+    put "Yeah! Deal!"
+  delay (2000)
+    put "You obtained a map!"
+  delay (999)
+     put "Where should Mario go?"
+delay (999)
+put "Spaghetti shop(27)"
+delay (999)
+put "Mario's home(28)"
+delay (999)
+put "Port Toadstool(29)"
+    get input
+    else
+    end if
+    
+    if input = "27" then
+    put ""
+    put "Sorry, but this path is unacessable!"
+       delay (999)
+    put "Hey! Get out of the story, talking octopi!"
+   delay (999)
+    put "He's right though. The shop is closed."
+    delay (999)
+  put "Mario's home(28)"
+delay (999)
+put "Port Toadstool(29)"
+    get input
+    else
+    end if
+    
+      if input = "28" then
+put ""
+put "Mario:"
+    put "Ah, home sweet home!"
+    delay (999)
+    put "What the..."
+    delay (999)
+    put "Undescribable scenario with Luigi"
+    delay (2000)
+    put "Luigi:"
+    put "Hey Mario!"
+    delay (999)
+    put "Mario:"
+     put "What. The."
+    delay (1500)
+    put "BOOM!!!"
+    delay (1500)
+    colour (12)
+    put "GAME OVER, YEAH!"
+    end if
+    
+    if input = "29" then  
+put ""
+    put "Mario:"
+    put "The port is closest to Bowser's castle, so..."
+    delay (999)
+    put "Wah!"
+ delay (1500)
+  put "A pair of pirates attacked!"
+     delay (2000)
+  put "Shy Guy Pirate:"
+    put "Give us yer booty!"
+  delay (999)
+     put "What should Mario do?"
+delay (999)
+put "Frighten 'em(30)"
+delay (999)
+put "Punch one of the pirates(31)"
+delay (999)
+put "SUPER SMASH 360 NOSCOPE PINGAS ATTACK(32)"
+delay (999)
+put "Spaghetti(33)"
+    get input
+    else
+    end if
+    
+if input > "29" then
 put ""
     put "Hello and thank you for playing the Alpha!"
     put "This is the end for now, but expect updates soon!"
     put "Bye!"
     put "-Sonason, dev"
 end if
-
