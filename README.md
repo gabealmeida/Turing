@@ -42,7 +42,7 @@ Last Updated Nov 1, 2015
 <br>
 Description
 <br>
-The best Choose Your Own Adventure game of 20XX! Jump out windows, encounter many pineapples, and die many time in a row!
+The best Choose Your Own Adventure game of 20XX! Jump out windows, encounter many pineapples, and die many times in a row!
 <hr>
 
 <a href="https://github.com/madoctopus/Turing/blob/master/Rafael/house.t" target="_blank">Draw.House</a>
@@ -127,7 +127,7 @@ Counts all the numbers from 1 to a specified number
 <br>
 Contributors : sonason
 <br>
-Version : v0.3
+Version : v0.4.1
 <br>
 Last Updated Oct 30, 2015
 <br>
@@ -231,11 +231,11 @@ Fight against your friends and enemies with over 30 (planned) characters!
 <br>
 Contributors : sonason
 <br>
-Version : 0.1
+Version : v. 0.1
 <br>
 Last Updated Oct 29, 2015
 <br>
 Description:
 <br>
-What happens when a hungry Russian is on the search for a sandwich in the American Desert? Based on Valve's 'Team Fortress 2
+What happens when a hungry Russian is on the search for a sandwich in the American Desert? Based on Valve's 'Team Fortress 2'
 <hr>
