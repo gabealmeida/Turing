@@ -19,7 +19,7 @@ Choose Your Own Adventure Epic!, Mario Simulator Turing Edition, Team Fortress: 
 
 #List of Projects in this Repository
 
-<a href="https://github.com/NotNemesis/Turing/blob/master/Rafael/clock.t" target="_blank">Clock</a>
+<a href="https://github.com/madoctopus/Turing/blob/master/Rafael/clock.t" target="_blank">Clock</a>
 <br>
 Contributors : NotNemesis
 <br>
@@ -32,7 +32,7 @@ Description
 Clock program made in Turing.
 <hr>
 
-<a href="https://github.com/NotNemesis/Turing/blob/master/cyoae.t" target="_blank">Choose Your Own Adventure Epic!</a>
+<a href="https://github.com/madoctopus/Turing/blob/master/cyoae.t" target="_blank">Choose Your Own Adventure Epic!</a>
 <br>
 Contributors : NotNemesis, sonason, Minecraftian47
 <br>
@@ -45,7 +45,7 @@ Description
 The best Choose Your Own Adventure game of 20XX! Jump out windows, encounter many pineapples, and die many time in a row!
 <hr>
 
-<a href="https://github.com/NotNemesis/Turing/blob/master/Rafael/house.t" target="_blank">Draw.House</a>
+<a href="https://github.com/madoctopus/Turing/blob/master/Rafael/house.t" target="_blank">Draw.House</a>
 <br>
 Contributors : NotNemesis
 <br>
@@ -58,7 +58,7 @@ Description
 Program that draws a house.
 <hr>
 
-<a href="https://github.com/NotNemesis/Turing/blob/master/Rafael/drawmario.t" target="_blank">Draw.Mario</a>
+<a href="https://github.com/madoctopus/Turing/blob/master/Rafael/drawmario.t" target="_blank">Draw.Mario</a>
 <br>
 Contributors : NotNemesis
 <br>
@@ -71,7 +71,7 @@ Description
 Program that draws a Mario.
 <hr>
 
-<a href="https://github.com/NotNemesis/Turing/blob/master/Rafael/dungeonquest.t" target="_blank">Dungeon Quest</a>
+<a href="https://github.com/madoctopus/Turing/blob/master/Rafael/dungeonquest.t" target="_blank">Dungeon Quest</a>
 <br>
 Contributors : NotNemesis
 <br>
@@ -84,7 +84,7 @@ Description
 (ON HOLD UNTIL FURTHER NOTICE) A game about exploring caves and killing monsters..
 <hr>
 
-<a href="https://github.com/NotNemesis/Turing/blob/master/Rafael/fart.t" target="_blank">(F)ART</a>
+<a href="https://github.com/madoctopus/Turing/blob/master/Rafael/fart.t" target="_blank">(F)ART</a>
 <br>
 Contributors : NotNemesis
 <br>
@@ -97,7 +97,7 @@ Description
 Etch-a-Sketch like program with 12 colours!
 <hr>
 
-<a href="https://github.com/NotNemesis/Turing/blob/master/Rafael/gambalo.t" target="_blank">Gambalo!</a>
+<a href="https://github.com/madoctopus/Turing/blob/master/Rafael/gambalo.t" target="_blank">Gambalo!</a>
 <br>
 Contributors : NotNemesis
 <br>
@@ -110,7 +110,7 @@ Description
 Bet, roll, and los... I mean win in this game that totally isn't rigged!
 <hr>
 
-<a href="https://github.com/NotNemesis/Turing/blob/master/Rafael/hack.t" target="_blank">hack.t (aka Countomatic!)</a>
+<a href="https://github.com/madoctopus/Turing/blob/master/Rafael/hack.t" target="_blank">hack.t (aka Countomatic!)</a>
 <br>
 Contributors : NotNemesis
 <br>
@@ -123,7 +123,7 @@ Description
 Counts all the numbers from 1 to a specified number
 <hr>
 
-<a href="https://github.com/NotNemesis/Turing/blob/sonason-patch-1/Mason/Mario%20Simulator%20Turing%20Edition.t" target="_blank">Mario Simulator Turing Edition</a>
+<a href="https://github.com/madoctopus/Turing/blob/sonason-patch-1/Mason/Mario%20Simulator%20Turing%20Edition.t" target="_blank">Mario Simulator Turing Edition</a>
 <br>
 Contributors : sonason
 <br>
@@ -136,7 +136,7 @@ Description
 It's your typical day in the Mushroom Kngdom: Peach has once again been kidnapped! Can Mario save her? Based on Mario Simulatior Interactive by SMG4
 <hr>
 
-<a href="https://github.com/NotNemesis/Turing/blob/master/Rafael/periodical.t" target="_blank">Periodical</a>
+<a href="https://github.com/madoctopus/Turing/blob/master/Rafael/periodical.t" target="_blank">Periodical</a>
 <br>
 Contributors : NotNemesis
 <br>
@@ -149,7 +149,7 @@ Description
 Program that gives information on elementin the periodic table.
 <hr>
 
-<a href="https://github.com/NotNemesis/Turing/blob/master/Rafael/rapixgen.t" target="_blank">Rapixgen</a>
+<a href="https://github.com/madoctopus/Turing/blob/master/Rafael/rapixgen.t" target="_blank">Rapixgen</a>
 <br>
 Contributors : NotNemesis
 <br>
@@ -162,7 +162,7 @@ Description
 Draws default github icon at random
 <hr>
 
-<a href="https://github.com/NotNemesis/Turing/tree/master/SATCA.t" target="_blank">SATCA Engine</a>
+<a href="https://github.com/madoctopus/Turing/tree/master/SATCA.t" target="_blank">SATCA Engine</a>
 <br>
 Contributors : NotNemesis
 <br>
@@ -175,7 +175,7 @@ Description
 A simple game engine that allows a player to make a simple Choose Your Own Adventure game
 <hr>
 
-<a href="https://github.com/NotNemesis/Turing/blob/master/Rafael/size.t" target="_blank">SizeO</a>
+<a href="https://github.com/madoctopus/Turing/blob/master/Rafael/size.t" target="_blank">SizeO</a>
 <br>
 Contributors : NotNemesis
 <br>
@@ -188,7 +188,7 @@ Description
 Draws a square according to the user's specifications.
 <hr>
 
-<a href="https://github.com/NotNemesis/Turing/blob/master/Rafael/smallclock.t" target="_blank">Small Clock</a>
+<a href="https://github.com/madoctopus/Turing/blob/master/Rafael/smallclock.t" target="_blank">Small Clock</a>
 <br>
 Contributors : NotNemesis
 <br>
@@ -201,7 +201,7 @@ Description
 Smaller version of Clock in Turing
 <hr>
 
-<a href="https://github.com/NotNemesis/Turing/blob/master/Rafael/snakey.t" target="_blank">Snakey</a>
+<a href="https://github.com/madoctopus/Turing/blob/master/Rafael/snakey.t" target="_blank">Snakey</a>
 <br>
 Contributors : NotNemesis
 <br>
@@ -214,7 +214,7 @@ Description
 Avoid crashing into yourself in this Snake-like game
 <hr>
 
-<a href="https://github.com/NotNemesis/Turing/tree/master/Rafael/SBA" target="_blank">Super Battle Arena!</a>
+<a href="https://github.com/madoctopus/Turing/tree/master/Rafael/SBA" target="_blank">Super Battle Arena!</a>
 <br>
 Contributors : NotNemesis
 <br>
@@ -227,7 +227,7 @@ Description
 Fight against your friends and enemies with over 30 (planned) characters!
 <hr>
 
-<a href="https://github.com/NotNemesis/Turing/blob/master/Mason/https://github.com/NotNemesis/Turing/blob/master/Mason/Team%20Fortress:%20Heavy's%20Quest%20for%20the%20Sandvich.t" target="_blank">Team Fortress: Heavy's Quest for the Sandvich</a>
+<a href="https://github.com/madoctopus/Turing/blob/master/Mason/https://github.com/NotNemesis/Turing/blob/master/Mason/Team%20Fortress:%20Heavy's%20Quest%20for%20the%20Sandvich.t" target="_blank">Team Fortress: Heavy's Quest for the Sandvich</a>
 <br>
 Contributors : sonason
 <br>
