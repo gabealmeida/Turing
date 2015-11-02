@@ -227,7 +227,7 @@ Description
 Fight against your friends and enemies with over 30 (planned) characters!
 <hr>
 
-<a href="https://github.com/NotNemesis/Turing/blob/master/Mason/https://github.com/NotNemesis/Turing/blob/master/Mason/Team%20Fortress:%20Heavy's%20Quest%20for%20the%20Sandvich.t" target="_blank">Team Fortress: Heavy's Quest for the Sandvich</a>
+<a href="https://github.com/madoctopus/Turing/blob/master/Mason/https://github.com/NotNemesis/Turing/blob/master/Mason/Team%20Fortress:%20Heavy's%20Quest%20for%20the%20Sandvich.t" target="_blank">Team Fortress: Heavy's Quest for the Sandvich</a>
 <br>
 Contributors : sonason
 <br>
