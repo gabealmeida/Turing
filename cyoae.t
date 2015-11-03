@@ -1075,12 +1075,28 @@ loop
 	put "Oh man! I never meant to be a bad guy!"
 	put "Those police siren echos get louder and louder, so you decide to turn yourself in..."
 	put "This has gotten from an epic adventure to a criminal endevour."
-	put "A day later, you are in court on trial about the murder of Ms. Sowannitz's dog."
+	put "A day later, you are in court on trial about the murder of Ms. Sowannitz's and her dog."
 	put "What do you plead?"
 	put "Guilty, absolutely guilty [93]"
 	put "Guilty [94]"
 	put "Not guilty, didn't do it [95]"
 	put ""
+	get input
+	end if
+	
+	if input = 61 then
+	put ""
+	put "HIDE A BODY!? ARE YOU OUT OF YOUR MIND!? WHAT KIND OF PERSON DOES THAT!?"
+	put "AT LEAST IT'S A BIT MORE HUMANE!"
+	put "IF BEING HUMANE IS YOUR BIGGEST CONCERN, INSTEAD OF HIDING IT, YOU DRESS UP THE BODY AND PUT IT IN A LAWN CHAIR"
+	put "YOU ALSO ATTACH SOME STRINGS TO THE BODY TO PUPPETEER IT"
+	put "YOU QUICKLY JUMP ON THE ROOF OF YOUR HOUSE AND BEGIN TO PUPPET AS A POLICE OFFICER WALKS UP TO ''HER''"
+	put "Police Officer >> Hello there, uhh... ma'am. I've heard complaints about loud noises here in the block and I    just wanted to hear if there were any witnesses..."
+	put "What will you say, ''Ms. Sowannitz''?"
+	put "WHAT'S THAT, SONNY? I CAN'T HEAR YOU!!! [96]"
+	put "Nonono, nothing happening here! [97]"
+	put "Yeah, some guy just threw a TV out their window and then some old lady and her dog died when they git hit by it!Also that old lady is me and that dog was mine [98]"
+	put " "
 	get input
 	end if
 	
