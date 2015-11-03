@@ -1,7 +1,9 @@
 # Turing
-Turing projects by NotNemesis
+Turing projects by Mad Octopus
 You can download Turing <a href="http://compsci.ca/holtsoft/" target="_blank">here.</a>
-<!--Hello-->
+<br>
+[Contributors](#contributors) | [List of Projects in this Repository](#list-of-projects-in-this-repository) | [Rules](rules.md)
+
 
 #Contributors
 <a href="https://github.com/NotNemesis" target="_blank">NotNemesis</a>
