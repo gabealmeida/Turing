@@ -88,7 +88,52 @@ put "Type [5] to continue."
 get input
 end if
 
-if input > 4 or input < 0 then
+if input = 5 then
+put "Heavy:"
+put "WHO TOUCHED SASHA!?"
+delay (999)
+put "Hey you! Who touched Sasha!?"
+put "Scout[7]"
+delay (999)
+put "Undercover Spy[8]"
+delay (999)
+get input
+end if
+
+if input = 6 then 
+put "Heavy: You must die!"
+delay (500)
+put "POW!"
+delay (999)
+put "BEEP!"
+delay (999)
+put "Heavy:"
+put "Nooooo! Sentry fire!"
+delay (1500)
+color (red)
+put "GAME OVER, YEAH!"
+delay (500)
+put "You got the 'Texas-Tech Style Revenge' Ending."
+put "Type any key to reset the game"
+get inres
+res := 1
+end if
+
+if input = 7 then
+put "Heavy:"
+put "Scout! You touched Sasha, didn't you?"
+delay (999)
+put "Scout:"
+put "Hey, I never touched her since the Sandvich incident."
+put "Ya really want the culprit, ask that guy over there."
+delay (999)
+put "I can trust him[4]"
+delay (999)
+put "Nope, kill him[6]"
+get input
+end if
+
+if input > 7 or input < 0 then
 put "End of game/Invalid answer. Please type any key to restart the game."
 get inres
 res := 1
