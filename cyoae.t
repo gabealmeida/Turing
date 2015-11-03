@@ -1100,5 +1100,24 @@ loop
 	get input
 	end if
 	
+	if input = 62 then
+	put "" 
+	put "OKAYOKAYOKAY, LET'S BURY THE BODY!" 
+	put "HEY FIDO, DIG THE..."
+	put "OH WAIT... OH..."
+	put "YOU RUN TO THE SHED AND TRY TO FIND A SHOVEL AND BEGIN DIGGING A HOLE"
+	put "Police Officer >> Hello there citizen, may I ask you what are you doing with that shovel?"
+	put "Police Officer >> And why is there an old woman laying on the ground!? You must have something to do with this!"
+	put "Police Officer >> YOU ARE UNDER ARREST!!!!!!!!!!!!!!!!!!!!!!!!!!!1!"
+	colour (12)
+	    put "You were arrested! GAME OVER!"
+	    put "Type [0] to restart"
+	    put ""
+	    get res
+	    sfm := 1
+	    cls
+	end if
+	
+	
     end loop
 end loop
