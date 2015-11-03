@@ -19,4 +19,15 @@
 7. When creating a new file, you MUST create a new branch and pull request for it
   - Even if it is saved within your own folder, it will be checked over to make sure it compiles
 
-8. Follow these rules
+8. Make sure your filenames do not contain illegal characters. These are...
+```
+\ / : * ? " < > |
+```
+However, you can use...
+```
+' ! @ # $ % ^ & - = + -
+```
+Although you should try to keep your filenames short and simple.
+
+
+9. Follow these rules
