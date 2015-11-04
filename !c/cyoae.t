@@ -7,10 +7,15 @@ View.Set ("title:Choose Your Own Adventure Epic!")
 var v_menu : int
 var input, res : int
 var sfm : int := 1
+var mo : int := Pic.FileNew ("mo.jpg")
 
 % Colouring %
 colour (white)
 colourback (7)
+cls
+
+Pic.Draw (mo,0,0,picCopy)
+delay (3000)
 cls
 
 loop
@@ -1119,16 +1124,16 @@ loop
 	end if
 	
 	if input = 63 then
-        put ""
-        put "You run to the bus stop to start a new life."
-            put "Oh no! When you get there, a bus is starting to drive away!"
-            put "Will you go after the bus?"
-            put "Yeah! That's my ticket to a new life! [99]"
-            put "Nah, I'll wait for the next bus... [100]"
-            put ""
-            get input
-        else
-        end if
+	put ""
+	put "You run to the bus stop to start a new life."
+	    put "Oh no! When you get there, a bus is starting to drive away!"
+	    put "Will you go after the bus?"
+	    put "Yeah! That's my ticket to a new life! [99]"
+	    put "Nah, I'll wait for the next bus... [100]"
+	    put ""
+	    get input
+	else
+	end if
 	
 	
     end loop
