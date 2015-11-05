@@ -20,7 +20,7 @@ cls
 put "Mario Simulatior Turing Edition DEMO"
 put "By Sonason"
 put ""
-put "Version Alpha 4.1"
+put "Version Alpha 5"
 put "Type [B] to start your adventure!"
 put "Type [M] for menu"
 put ""
@@ -47,7 +47,7 @@ if start = "1" then
 cls
     put ""
     put "Mario Simulatior Turing Edition"
-    put "Version 4.1"
+    put "Version 5"
     delay (999)
     colour (9)
     put "ORIGINAL CODE"
@@ -99,6 +99,10 @@ if start = "2" then
     put "November 2, 2015"
     colour (white)
     put "Minor edits.(Alpha 4.1)"
+      color (42)
+    put "November 11, 2015"
+    colour (white)
+    put "Defeat a band of pirates!(Alpha 5)"
     put "[B] to start game"
     put ""
     get start
@@ -761,7 +765,74 @@ put "Spaghetti(33)"
     else
     end if
     
-if input > "29" then
+         if input = "30" then
+put ""
+put "Mario:"
+    put "BOO!"
+    delay (999)
+    put "Pirate Fox:"
+    put "Not scary. Here's scary:"
+    delay (500)
+    put "'play FNAF jumpscare'"
+    delay (2000)
+    put "Mario:"
+    put "AAAAAAAAAAAAAAHHHHHHH!"
+    delay (1500)
+    colour (12)
+    put "GAME OVER, YEAH!"
+        put "(Mario died of fright!)"
+    end if
+    
+    if input = "30" then
+put ""
+put "Mario:"
+    put "Punch-Out time!!!!"
+    delay (999)
+    put "Aaaahhhh!"
+    delay (1500)
+    put "SPLASH!"
+    delay (1500)
+    colour (12)
+    put "GAME OVER, YEAH!"
+        put "(Mario drowned!)"
+    end if
+    
+      if input = "31" then
+put ""
+put "Mario is about to use SUPER SMASH 360 NOSCOPE PINGAS ATTACK!!!"
+    delay (2500)
+    put "Mario does not know that move."
+     put "Mario: What was the point then!?"
+    delay (999)
+    put "POW!"
+    delay (1500)
+    colour (12)
+    put "GAME OVER, YEAH!"
+    end if
+    
+     if input = "32" then
+    put ""
+    put "Mario:"
+    put "Take this!"
+   delay (999)
+    put "Pirate Fox:"
+    put "Bwah! Oh my god!"
+    delay (999)
+    put "Mario:"
+    put "Yay!"
+      delay (999)
+    put "The Shy Guy stole your map!"
+    put "Shy Guy:"
+    put "This map's ours now!"
+    delay (999)
+    put "The enemy has fled!"
+    delay (999)
+    put "Please type '33' to continue."
+    get input
+    else
+    end if
+    
+if input > "32" then
 put ""
     put "Hello and thank you for playing the Alpha!"
     put "This is the end for now, but expect updates soon!"
