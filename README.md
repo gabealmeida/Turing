@@ -34,7 +34,7 @@ Description
 Clock program made in Turing.
 <hr>
 
-<a href="https://github.com/madoctopus/Turing/blob/master/cyoae.t" target="_blank">Choose Your Own Adventure Epic!</a>
+<a href="https://github.com/madoctopus/Turing/blob/master/!c/cyoae.t" target="_blank">Choose Your Own Adventure Epic!</a>
 <br>
 Contributors : NotNemesis, sonason, Minecraftian47
 <br>
