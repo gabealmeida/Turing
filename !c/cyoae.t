@@ -1132,7 +1132,22 @@ loop
 	    put "Nah, I'll wait for the next bus... [100]"
 	    put ""
 	    get input
-	else
+	end if
+	
+	if input = 64 then 
+	put ""
+	put "You watch the Democratic People's Republic of North Dakota State-Run TV (or DPRNDSRTV for short)"
+	put "DPRNDSRTV >> We interupt this broadcast of ''Days of Our Democratic People's Lives'' to bring you a special    report."
+	put "DPRNDSRTV >> The leader is great, the leader is good!"
+	put "DPRNDSRTV >> The leader is great, the leader is good!"
+	put "DPRNDSRTV >> The leader is great, the leader is good!"
+	put "The news lady keeps chanting that over and over again."
+	put "What will you do now?"
+	put "Watch NTV [65]"
+	put "Watch Tri-City Area News [66]"
+	put "Chant ''the leader is great, the leader is good'' [101]"
+	put ""
+	get input
 	end if
 	
 	
