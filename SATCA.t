@@ -1,4 +1,4 @@
-% SATCA by NotNemesis v1.0
+% SATCA by NotNemesis v1.1
 % Super Amazing Turing Choosable Adventure Engine
 
 % A simple game engine that allows a player to make a simple Choose Your Own Adventure game
@@ -7,7 +7,22 @@
 
 var win1 : int := Window.Open ("position:center;center,graphics:900;600,nobuttonbar,title: SATCA") % Opens main window
 var input, inres : int  % Takes user input, resets game
-var res : int := 1 % Reset gane
+var res : int := 1 % Reset game
+var mo : int := Pic.FileNew ("mo.jpg") %The MadOctopus logo, which can be downloaded @ https://goo.gl/Qup6O8
+
+% This if structure looks for the MadOctopus logo. If it does not exist where the file is saved,
+% it will give an error. Otherwise, it puts the logo. Keep in mind that this logo is only designed
+% for a 900*600px screen or window.
+if mo = 0 then 
+    put "<mo.jpg was not found in default file directory>"
+    put "loading game, please wait..."
+    delay (3000)
+    cls
+else
+    Pic.Draw (mo, 0, 0, picCopy)
+    delay (3000)
+    cls
+end if
 
 loop
 if res = 1 then
@@ -23,7 +38,7 @@ if input = 0 then
 put "This is where a message would be displayed"
 put "This is where a message would be displayed"
 put "This is where a message would be displayed"
-put "Option 1 (does something [1]"
+put "Option 1 (does something) [1]"
 put "Option 2 (resets game) [2]"
 get input
 end if
@@ -33,7 +48,7 @@ put "This is where a message would be displayed"
 put "This is where a message would be displayed"
 put "This is the end of the demo"
 put "Thank you for playing"
-delay (20000000)
+exit
 end if
 
 if input = 2 then 
@@ -50,4 +65,10 @@ end if
 
 end loop
 
+colour (red)
+put "You have exited the loop. This could have been caused by abnormal behaivour in the program"
+% put "Please close the program and try again"  % Only use this line when using SATCA for a project. Do not use this line within the demo
+% Please remove the next two lines of code when using SATCA for a project
+put "In the case of SATCA.t, this is normal behaivour caused by an option."
+put "Within a program that uses SATCA, exiting the loop could be abnormal behaivour"
 
