@@ -1169,50 +1169,61 @@ loop
 	    put ""
 	    get input
 	end if
-	
-	if input = 66 then 
-	put ""
-	put "You watch Tri-City Area News, ''the best local news in your area!''"
-	put "The news starts..."
-	put "TCAN >> Good whatever it is. I'm Alan Normstormm, and here's the news."
-	put "TCAN >> A local elderly woman was not freaked out or killed on her dog walk today. That's good I guess."
-	put "TCAN >> Protesters surround Pineapple Burger for what... the sixth day now?"
-	put "TCAN >> That giant metal beast is still visible in the distance. Estimates say that it will arrive in town on Tuesday."
-	put "TCAN >> That's all for today, I guess... I'm not sure since my script isn't very clear. Who wrote this?"
-	put "TCAN >> Also, don't forget to enter in YYZ-TCAN's contest, where you could win a trip to Er-Uhh-Pin-Plop Island!"
-	put "Oh boy! A contest! That sound's like fun! What will you do now?"
-	put "Sign up for that contest! [103]"
-	put "Watch Democratic People's Republic of North Dakota State-Run TV[64]"
-	put "Watch NTV [65]"
-	put ""
-	get input
+
+	if input = 66 then
+	    put ""
+	    put "You watch Tri-City Area News, ''the best local news in your area!''"
+	    put "The news starts..."
+	    put "TCAN >> Good whatever it is. I'm Alan Normstormm, and here's the news."
+	    put "TCAN >> A local elderly woman was not freaked out or killed on her dog walk today. That's good I guess."
+	    put "TCAN >> Protesters surround Pineapple Burger for what... the sixth day now?"
+	    put "TCAN >> That giant metal beast is still visible in the distance. Estimates say that it will arrive in town on Tuesday."
+	    put "TCAN >> That's all for today, I guess... I'm not sure since my script isn't very clear. Who wrote this?"
+	    put "TCAN >> Also, don't forget to enter in YYZ-TCAN's contest, where you could win a trip to Er-Uhh-Pin-Plop Island!"
+	    put "Oh boy! A contest! That sound's like fun! What will you do now?"
+	    put "Sign up for that contest! [103]"
+	    put "Watch Democratic People's Republic of North Dakota State-Run TV[64]"
+	    put "Watch NTV [65]"
+	    put ""
+	    get input
 	end if
-       
+
 	if input = 67 then
-	put ""
-	put "Oh boy... you're intha... metal thing...y"
-	put "Meda... medical boy.. medical bay... ugh..."
-	put "The very nice person who rolled you in's mouth is moving but it's hard to hear him."
-	put "Very Nice Person >> Hell...! He...! Can you he...? Are you aller... ...dicine?"
-	put "Very Nice Person >> Wha.. yo... ...me?"
-	put "You scream out ''ARRRRRGGGGGG MY FOOOOOOOOOOOOOOOOOOOT!''"
-	put "You hear rumbling... and feel shaking..."
-	put "Very Nice Guy >> We ha... ...o time! Give him 100cc's of..!"
-	put "You fall asleep. Type [104] to continue."
-	put ""
-	get input
+	    put ""
+	    put "Oh boy... you're intha... metal thing...y"
+	    put "Meda... medical boy.. medical bay... ugh..."
+	    put "The very nice person who rolled you in's mouth is moving but it's hard to hear him."
+	    put "Very Nice Person >> Hell...! He...! Can you he...? Are you aller... ...dicine?"
+	    put "Very Nice Person >> Wha.. yo... ...me?"
+	    put "You scream out ''ARRRRRGGGGGG MY FOOOOOOOOOOOOOOOOOOOT!''"
+	    put "You hear rumbling... and feel shaking..."
+	    put "Very Nice Guy >> We ha... ...o time! Give him 100cc's of..!"
+	    put "You fall asleep. Type [104] to continue."
+	    put ""
+	    get input
 	end if
-	
-	if input = 68 then 
-	put ""
-	put "Woah, you got a big appitite, eh?"
-	put "So you order that abombination of food-kind and are told that you can sit down and wait for your food because it could be a while."
-	put "Where will you sit?"
-	put "Table [105]"
-	put "Booth [106]"
-	put "My order was to-go! [107]"
-	put ""
-	get input 
+
+	if input = 68 then
+	    put ""
+	    put "Woah, you got a big appitite, eh?"
+	    put "So you order that abombination of food-kind and are told that you can sit down and wait for your food because it could be a while."
+	    put "Where will you sit?"
+	    put "Table [105]"
+	    put "Booth [106]"
+	    put "My order was to-go! [107]"
+	    put ""
+	    get input
+	end if
+
+	if input = 69 then
+	    put ""
+	    put "You look around quickly and rush to the bathroom."
+	    put "When you get inside the bathroom, there is a stall and a urinal. That's kinda... odd for a family bathroom..."
+	    put "Where will you go?"
+	    put "Urinal [108]"
+	    put "Stall [109]"
+	    put ""
+	    get input
 	end if
 
 
