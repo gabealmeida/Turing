@@ -1202,6 +1202,18 @@ loop
 	put ""
 	get input
 	end if
+	
+	if input = 68 then 
+	put ""
+	put "Woah, you got a big appitite, eh?"
+	put "So you order that abombination of food-kind and are told that you can sit down and wait for your food because it could be a while."
+	put "Where will you sit?"
+	put "Table [105]"
+	put "Booth [106]"
+	put "My order was to-go! [107]"
+	put ""
+	get input 
+	end if
 
 
     end loop
