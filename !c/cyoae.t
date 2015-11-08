@@ -1188,7 +1188,20 @@ loop
 	get input
 	end if
        
-	
+	if input = 67 then
+	put ""
+	put "Oh boy... you're intha... metal thing...y"
+	put "Meda... medical boy.. medical bay... ugh..."
+	put "The very nice person who rolled you in's mouth is moving but it's hard to hear him."
+	put "Very Nice Person >> Hell...! He...! Can you he...? Are you aller... ...dicine?"
+	put "Very Nice Person >> Wha.. yo... ...me?"
+	put "You scream out ''ARRRRRGGGGGG MY FOOOOOOOOOOOOOOOOOOOT!''"
+	put "You hear rumbling... and feel shaking..."
+	put "Very Nice Guy >> We ha... ...o time! Give him 100cc's of..!"
+	put "You fall asleep. Type [104] to continue."
+	put ""
+	get input
+	end if
 
 
     end loop
