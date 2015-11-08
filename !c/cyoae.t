@@ -14,9 +14,17 @@ colour (white)
 colourback (7)
 cls
 
-Pic.Draw (mo,0,0,picCopy)
-delay (3000)
-cls
+if mo = 0 then
+    put "<mo.jpg was not found in default file directory>"
+    put "loading game, please wait..."
+    delay (1000)
+    cls
+else
+    Pic.Draw (mo, 0, 0, picCopy)
+    delay (3000)
+    cls
+end if
+
 
 loop
     % Title %
@@ -124,7 +132,7 @@ loop
 	    put ""
 	    get v_menu
 	end if
-	
+
 	if v_menu = 6 then
 	    put "DOOT DOOT SAYS THE SPOOKIE SKELETON"
 	    put ""
@@ -134,10 +142,10 @@ loop
 	if v_menu = 0 then
 	    exit
 	end if
-	
+
 	if v_menu > 6 then
-	put "ERROR badinput, PLEASE PUT VALID COMMAND"
-	get v_menu
+	    put "ERROR badinput, PLEASE PUT VALID COMMAND"
+	    get v_menu
 	end if
 
     end loop
@@ -458,9 +466,9 @@ loop
 	    get input
 	else
 	end if
-	
+
 	% it looks like a comment was needed here for some reason ;)
-	
+
 	if input = 21 then
 	    put ""
 	    put "You watch another game."
@@ -1054,67 +1062,67 @@ loop
 	    put ""
 	    get input
 	end if
-	
+
 	% please keep the next lines of comments it holds together this fabric of space and time
 	%         drrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
 	%         drrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
 	%         drrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
 	%         ///////////////////////////////////////////////////////
-	
+
 	if input = 59 then
-	put ""
-	put "Ooh! Murdermurdermurder!"
-	put "I've always wanted to do it!!!"
-	put "But your computer game with a sub-consious tells you no."
-	put "Aww, but why? >:("
-	put "Your computer game tells you how bad killing is, gives you the pros and cons about jail, and then hands you a pamphet on prison"
-	put "Why thank you CYOAE! You've set me on the right path!"
-	put "As a treat, CYOAE tells you to go to Taco Hut as a treat!"
-	put "Type [74] to continue"
-	put ""
-	get input
+	    put ""
+	    put "Ooh! Murdermurdermurder!"
+	    put "I've always wanted to do it!!!"
+	    put "But your computer game with a sub-consious tells you no."
+	    put "Aww, but why? >:("
+	    put "Your computer game tells you how bad killing is, gives you the pros and cons about jail, and then hands you a pamphet on prison"
+	    put "Why thank you CYOAE! You've set me on the right path!"
+	    put "As a treat, CYOAE tells you to go to Taco Hut as a treat!"
+	    put "Type [74] to continue"
+	    put ""
+	    get input
 	end if
-	
+
 	if input = 60 then
-	put ""
-	put "Oh man! I never meant to be a bad guy!"
-	put "Those police siren echos get louder and louder, so you decide to turn yourself in..."
-	put "This has gotten from an epic adventure to a criminal endevour."
-	put "A day later, you are in court on trial about the murder of Ms. Sowannitz's and her dog."
-	put "What do you plead?"
-	put "Guilty, absolutely guilty [93]"
-	put "Guilty [94]"
-	put "Not guilty, didn't do it [95]"
-	put ""
-	get input
+	    put ""
+	    put "Oh man! I never meant to be a bad guy!"
+	    put "Those police siren echos get louder and louder, so you decide to turn yourself in..."
+	    put "This has gotten from an epic adventure to a criminal endevour."
+	    put "A day later, you are in court on trial about the murder of Ms. Sowannitz's and her dog."
+	    put "What do you plead?"
+	    put "Guilty, absolutely guilty [93]"
+	    put "Guilty [94]"
+	    put "Not guilty, didn't do it [95]"
+	    put ""
+	    get input
 	end if
-	
+
 	if input = 61 then
-	put ""
-	put "HIDE A BODY!? ARE YOU OUT OF YOUR MIND!? WHAT KIND OF PERSON DOES THAT!?"
-	put "AT LEAST IT'S A BIT MORE HUMANE!"
-	put "IF BEING HUMANE IS YOUR BIGGEST CONCERN, INSTEAD OF HIDING IT, YOU DRESS UP THE BODY AND PUT IT IN A LAWN CHAIR"
-	put "YOU ALSO ATTACH SOME STRINGS TO THE BODY TO PUPPETEER IT"
-	put "YOU QUICKLY JUMP ON THE ROOF OF YOUR HOUSE AND BEGIN TO PUPPET AS A POLICE OFFICER WALKS UP TO ''HER''"
-	put "Police Officer >> Hello there, uhh... ma'am. I've heard complaints about loud noises here in the block and I    just wanted to hear if there were any witnesses..."
-	put "What will you say, ''Ms. Sowannitz''?"
-	put "WHAT'S THAT, SONNY? I CAN'T HEAR YOU!!! [96]"
-	put "Nonono, nothing happening here! [97]"
-	put "Yeah, some guy just threw a TV out their window and then some old lady and her dog died when they git hit by it!Also that old lady is me and that dog was mine [98]"
-	put " "
-	get input
+	    put ""
+	    put "HIDE A BODY!? ARE YOU OUT OF YOUR MIND!? WHAT KIND OF PERSON DOES THAT!?"
+	    put "AT LEAST IT'S A BIT MORE HUMANE!"
+	    put "IF BEING HUMANE IS YOUR BIGGEST CONCERN, INSTEAD OF HIDING IT, YOU DRESS UP THE BODY AND PUT IT IN A LAWN CHAIR"
+	    put "YOU ALSO ATTACH SOME STRINGS TO THE BODY TO PUPPETEER IT"
+	    put "YOU QUICKLY JUMP ON THE ROOF OF YOUR HOUSE AND BEGIN TO PUPPET AS A POLICE OFFICER WALKS UP TO ''HER''"
+	    put "Police Officer >> Hello there, uhh... ma'am. I've heard complaints about loud noises here in the block and I    just wanted to hear if there were any witnesses..."
+	    put "What will you say, ''Ms. Sowannitz''?"
+	    put "WHAT'S THAT, SONNY? I CAN'T HEAR YOU!!! [96]"
+	    put "Nonono, nothing happening here! [97]"
+	    put "Yeah, some guy just threw a TV out their window and then some old lady and her dog died when they git hit by it!Also that old lady is me and that dog was mine [98]"
+	    put " "
+	    get input
 	end if
-	
+
 	if input = 62 then
-	put "" 
-	put "OKAYOKAYOKAY, LET'S BURY THE BODY!" 
-	put "HEY FIDO, DIG THE..."
-	put "OH WAIT... OH..."
-	put "YOU RUN TO THE SHED AND TRY TO FIND A SHOVEL AND BEGIN DIGGING A HOLE"
-	put "Police Officer >> Hello there citizen, may I ask you what are you doing with that shovel?"
-	put "Police Officer >> And why is there an old woman laying on the ground!? You must have something to do with this!"
-	put "Police Officer >> YOU ARE UNDER ARREST!!!!!!!!!!!!!!!!!!!!!!!!!!!1!"
-	colour (12)
+	    put ""
+	    put "OKAYOKAYOKAY, LET'S BURY THE BODY!"
+	    put "HEY FIDO, DIG THE..."
+	    put "OH WAIT... OH..."
+	    put "YOU RUN TO THE SHED AND TRY TO FIND A SHOVEL AND BEGIN DIGGING A HOLE"
+	    put "Police Officer >> Hello there citizen, may I ask you what are you doing with that shovel?"
+	    put "Police Officer >> And why is there an old woman laying on the ground!? You must have something to do with this!"
+	    put "Police Officer >> YOU ARE UNDER ARREST!!!!!!!!!!!!!!!!!!!!!!!!!!!1!"
+	    colour (12)
 	    put "You were arrested! GAME OVER!"
 	    put "Type [0] to restart"
 	    put ""
@@ -1122,10 +1130,10 @@ loop
 	    sfm := 1
 	    cls
 	end if
-	
+
 	if input = 63 then
-	put ""
-	put "You run to the bus stop to start a new life."
+	    put ""
+	    put "You run to the bus stop to start a new life."
 	    put "Oh no! When you get there, a bus is starting to drive away!"
 	    put "Will you go after the bus?"
 	    put "Yeah! That's my ticket to a new life! [99]"
@@ -1133,23 +1141,35 @@ loop
 	    put ""
 	    get input
 	end if
-	
-	if input = 64 then 
-	put ""
-	put "You watch the Democratic People's Republic of North Dakota State-Run TV (or DPRNDSRTV for short)"
-	put "DPRNDSRTV >> We interupt this broadcast of ''Days of Our Democratic People's Lives'' to bring you a special    report."
-	put "DPRNDSRTV >> The leader is great, the leader is good!"
-	put "DPRNDSRTV >> The leader is great, the leader is good!"
-	put "DPRNDSRTV >> The leader is great, the leader is good!"
-	put "The news lady keeps chanting that over and over again."
-	put "What will you do now?"
-	put "Watch NTV [65]"
-	put "Watch Tri-City Area News [66]"
-	put "Chant ''the leader is great, the leader is good'' [101]"
-	put ""
-	get input
+
+	if input = 64 then
+	    put ""
+	    put "You watch the Democratic People's Republic of North Dakota State-Run TV (or DPRNDSRTV for short)"
+	    put "DPRNDSRTV >> We interupt this broadcast of ''Days of Our Democratic People's Lives'' to bring you a special    report."
+	    put "DPRNDSRTV >> The leader is great, the leader is good!"
+	    put "DPRNDSRTV >> The leader is great, the leader is good!"
+	    put "DPRNDSRTV >> The leader is great, the leader is good!"
+	    put "The news lady keeps chanting that over and over again."
+	    put "What will you do now?"
+	    put "Watch NTV [65]"
+	    put "Watch Tri-City Area News [66]"
+	    put "Chant ''the leader is great, the leader is good'' [101]"
+	    put ""
+	    get input
 	end if
-	
-	
+
+	if input = 65 then
+	    put ""
+	    put "NTV? Why? They barely have news on that channel anymore!"
+	    put "You wait around for an hour or so to see the news but it's just a dumb reality show about fake dating cats..."
+	    put "What will you do now?"
+	    put "Watch Democratic People's Republic of North Dakota State-Run TV[64]"
+	    put "Watch Tri-City Area News [66]"
+	    put "Keep watching NTV [102]"
+	    put ""
+	    get input
+	end if
+
+
     end loop
 end loop
