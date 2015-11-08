@@ -168,7 +168,7 @@ Draws default github icon at random
 <br>
 Contributors : NotNemesis
 <br>
-Version : v1.1
+Version : v1.2
 <br>
 Last Updated Nov 7, 2015
 <br>
