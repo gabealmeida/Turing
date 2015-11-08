@@ -1,1 +1,37 @@
-<changelog>
+Super Amazing Turing Choosable Adventure Engine (SATCA) Changelog
+
+v1.2
++ Created new folder and moved file to new folder
+SATCA.t -> SATCA Engine\SATCA.t
+
++ Changed variable name and references within file
+var mo -> var logo
+("mo.jpg") -> ("logo.jpg")
+if mo = 0 -> if logo = 0
+mo.jpg ... -> logo.jpg ...
+Pic.Draw (mo ... -> Pic.Draw (logo ...
+
++ Changed wording to relate to placeholder logo instead of MO :octopus:
+logo
+
+___________________________________________________________________________________
+
+v1.1
++ Changed ver.
+v1.0 -> v1.1
+
++ Added MadOctopus logo (https://goo.gl/Qup6O8) and if structure with
+error handler
+
++ Fixed typo for Option 1 [1]:
+... (does something -> (does something)
+
++ Changed when if input = 1
+delay (20000000) -> exit
+
++ Added puts when user exits main loop
+
+____________________________________________________________________________________
+
+v1.0
+Initial commit of the engine and first public version
