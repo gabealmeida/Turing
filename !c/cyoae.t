@@ -17,11 +17,11 @@ cls
 if mo = 0 then
     put "<mo.jpg was not found in default file directory>"
     put "loading game, please wait..."
-    delay (1000)
+    %delay (3000)
     cls
 else
     Pic.Draw (mo, 0, 0, picCopy)
-    delay (3000)
+    %delay (3000)
     cls
 end if
 
@@ -498,7 +498,7 @@ loop
 	else
 	end if
 
-	if input = 22 then %fix this
+	if input = 22 then
 	    put ""
 	    put "Oh, okay Mr/Mrs/Miss/Dr. Confident."
 	    put "Which news channel will you watch?"
@@ -1169,6 +1169,26 @@ loop
 	    put ""
 	    get input
 	end if
+	
+	if input = 66 then 
+	put ""
+	put "You watch Tri-City Area News, ''the best local news in your area!''"
+	put "The news starts..."
+	put "TCAN >> Good whatever it is. I'm Alan Normstormm, and here's the news."
+	put "TCAN >> A local elderly woman was not freaked out or killed on her dog walk today. That's good I guess."
+	put "TCAN >> Protesters surround Pineapple Burger for what... the sixth day now?"
+	put "TCAN >> That giant metal beast is still visible in the distance. Estimates say that it will arrive in town on Tuesday."
+	put "TCAN >> That's all for today, I guess... I'm not sure since my script isn't very clear. Who wrote this?"
+	put "TCAN >> Also, don't forget to enter in YYZ-TCAN's contest, where you could win a trip to Er-Uhh-Pin-Plop Island!"
+	put "Oh boy! A contest! That sound's like fun! What will you do now?"
+	put "Sign up for that contest! [103]"
+	put "Watch Democratic People's Republic of North Dakota State-Run TV[64]"
+	put "Watch NTV [65]"
+	put ""
+	get input
+	end if
+       
+	
 
 
     end loop
