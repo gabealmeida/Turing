@@ -1,4 +1,4 @@
-% SATCA by NotNemesis v1.1
+% SATCA by NotNemesis v1.2
 % Super Amazing Turing Choosable Adventure Engine
 
 % A simple game engine that allows a player to make a simple Choose Your Own Adventure game
@@ -8,18 +8,18 @@
 var win1 : int := Window.Open ("position:center;center,graphics:900;600,nobuttonbar,title: SATCA") % Opens main window
 var input, inres : int  % Takes user input, resets game
 var res : int := 1 % Reset game
-var mo : int := Pic.FileNew ("mo.jpg") %The MadOctopus logo, which can be downloaded @ https://goo.gl/Qup6O8
+var logo : int := Pic.FileNew ("logo.jpg") % Placeholder logo. MadOctopus logo can be downloaded @ https://goo.gl/Qup6O8
 
-% This if structure looks for the MadOctopus logo. If it does not exist where the file is saved,
+% This if structure looks for the placeholder logo. If it does not exist where the file is saved,
 % it will give an error. Otherwise, it puts the logo. Keep in mind that this logo is only designed
 % for a 900*600px screen or window.
-if mo = 0 then 
-    put "<mo.jpg was not found in default file directory>"
+if logo = 0 then 
+    put "<logo.jpg was not found in default file directory>"
     put "loading game, please wait..."
     delay (3000)
     cls
 else
-    Pic.Draw (mo, 0, 0, picCopy)
+    Pic.Draw (logo, 0, 0, picCopy)
     delay (3000)
     cls
 end if
