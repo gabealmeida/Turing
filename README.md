@@ -129,7 +129,7 @@ Counts all the numbers from 1 to a specified number
 <br>
 Contributors : sonason
 <br>
-Version : v0.4.1
+Version : v0.4.2
 <br>
 Last Updated Oct 30, 2015
 <br>
