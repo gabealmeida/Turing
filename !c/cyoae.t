@@ -1216,15 +1216,27 @@ loop
 	end if
 
 	if input = 69 then
-	    put ""
-	    put "You look around quickly and rush to the bathroom."
-	    put "When you get inside the bathroom, there is a stall and a urinal. That's kinda... odd for a family bathroom..."
-	    put "Where will you go?"
-	    put "Urinal [108]"
-	    put "Stall [109]"
-	    put ""
-	    get input
-	end if
+            put ""
+            put "You look around quickly and rush to the bathroom."
+            put "When you get inside the bathroom, there is a stall and a urinal. That's kinda... odd for a family bathroom..."
+            put "Where will you go?"
+            put "Urinal [108]"
+            put "Stall [109]"
+            put "I'm not sure... [110]"
+            put ""
+            get input
+        end if
+
+        if input = 70 then
+            put ""
+            put "So your legs are tired, eh? You walk over to the seating area."
+            put "Where will you sit?"
+            put "On second thought, I'll sit on the toilet in the bathroom [69]"
+            put "Table [105]"
+            put "Booth [106]"
+            put ""
+            get input
+        end if
 
 
     end loop
