@@ -7,20 +7,30 @@ var input : string
 var code : string
 var code2 : string
 var code3 : string
-
+var mo : int := Pic.FileNew ("mo.jpg")
+var sfm : int := 1
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%% Text colouring %%%%%%%%%%
 colour (white)
 colourback (red)
 cls
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+if mo = 0 then
+    put "<mo.jpg was not found in default file directory>"
+    put "loading game, please wait..."
+    delay (3000)
+    cls
+else
+    Pic.Draw (mo, 0, 0, picCopy)
+    delay (3000)
+    cls
+end if
 %%%%%%% title screen %%%%%%%%%%%%%
     % Title %
 put "Mario Simulatior Turing Edition DEMO"
 put "By Sonason"
 put ""
-put "Version Alpha 5"
+put "Version Alpha 4.2"
 put "Type [B] to start your adventure!"
 put "Type [M] for menu"
 put ""
@@ -47,7 +57,7 @@ if start = "1" then
 cls
     put ""
     put "Mario Simulatior Turing Edition"
-    put "Version 5"
+    put "Version 4.1"
     delay (999)
     colour (9)
     put "ORIGINAL CODE"
@@ -99,10 +109,11 @@ if start = "2" then
     put "November 2, 2015"
     colour (white)
     put "Minor edits.(Alpha 4.1)"
-      color (42)
-    put "November 11, 2015"
+           color (42)
+    put "November 9, 2015"
     colour (white)
-    put "Defeat a band of pirates!(Alpha 5)"
+    put "Restart system! Play without the annoyance of constantly restarting upon game over!"
+    put "Also added Mad Octopus logo(Alpha 4.2)"
     put "[B] to start game"
     put ""
     get start
@@ -110,8 +121,11 @@ else
 end if
 
 %%%%%% game %%%%%%%
+loop
+
 if start = "B" or start = "b" then
 cls
+color (white)
 put ""
     put "Hello and welcome to Mario Simulator: Turing Edition!"
     put "You will start by noticing options to follow."
@@ -141,7 +155,6 @@ end if
 if input = "1" then
 put ""
 put "Mario:"
-    delay (999)
     put "Hey, stinky!"
     delay (500)
     put "'Explosion sound'"
@@ -149,8 +162,15 @@ put "Mario:"
     colour (12)
     put "GAME OVER, YEAH!"
     delay (500)
+    color (white)
     put "What the heck!?"
-    end if
+   delay (5000)
+            sfm := 2
+            delay (100)
+            sfm := 1
+            cls
+        else
+        end if
    
 if input = "2" then
     put ""
@@ -200,7 +220,13 @@ if input = "4" then
      delay (1500)
     colour (12)
     put "GAME OVER, YEAH!"
-end if
+  delay (5000)
+            sfm := 2
+            delay (100)
+            sfm := 1
+            cls
+        else
+        end if
 
 if input = "5" then
 put ""
@@ -227,7 +253,13 @@ put ""
     colour (12)
     put "GAME OVER, YEAH!"
     put "(Mario Gave Up!)"
-end if
+  delay (5000)
+            sfm := 2
+            delay (100)
+            sfm := 1
+            cls
+        else
+        end if
 
 if input = "6" then
     put ""
@@ -281,7 +313,13 @@ if input = "7" then
      delay (1500)
     colour (12)
     put "GAME OVER, YEAH!"
-end if
+  delay (5000)
+            sfm := 2
+            delay (100)
+            sfm := 1
+            cls
+        else
+        end if
 
 if input = "8" then
     put ""
@@ -371,7 +409,13 @@ put "...'anything' I can do to get out of this?"
     color (white)
     put "Mario:"
     put "Ah, SHADDAP!"
-    end if
+  delay (5000)
+            sfm := 2
+            delay (100)
+            sfm := 1
+            cls
+        else
+        end if
 
     if input = "12" then
     put ""
@@ -420,7 +464,13 @@ put "Officer:"
     color (white)
     put "Mario:"
     put "Ah, SHADDAP!"
-    end if
+  delay (5000)
+            sfm := 2
+            delay (100)
+            sfm := 1
+            cls
+        else
+        end if
 
      if input = "14" then
     put ""
@@ -569,7 +619,13 @@ put "Mario:"
     delay (1500)
     colour (12)
     put "GAME OVER, YEAH!"
-    end if
+  delay (5000)
+            sfm := 2
+            delay (100)
+            sfm := 1
+            cls
+        else
+        end if
 
     
     if input = "21" then
@@ -590,7 +646,13 @@ put "Mario:"
     delay (1500)
     colour (12)
     put "GAME OVER, YEAH!"
-    end if
+  delay (5000)
+            sfm := 2
+            delay (100)
+            sfm := 1
+            cls
+        else
+        end if
 
     
 if input = "22" then  
@@ -650,7 +712,13 @@ put "Mario:"
     delay (1500)
     colour (12)
     put "GAME OVER, YEAH!"
-    end if
+  delay (5000)
+            sfm := 2
+            delay (100)
+            sfm := 1
+            cls
+        else
+        end if
     
     if input = "24" then
     put ""
@@ -738,7 +806,13 @@ put "Mario:"
     delay (1500)
     colour (12)
     put "GAME OVER, YEAH!"
-    end if
+  delay (5000)
+            sfm := 2
+            delay (100)
+            sfm := 1
+            cls
+        else
+        end if
     
     if input = "29" then  
 put ""
@@ -781,7 +855,13 @@ put "Mario:"
     colour (12)
     put "GAME OVER, YEAH!"
         put "(Mario died of fright!)"
-    end if
+  delay (5000)
+            sfm := 2
+            delay (100)
+            sfm := 1
+            cls
+        else
+        end if
     
     if input = "30" then
 put ""
@@ -795,7 +875,13 @@ put "Mario:"
     colour (12)
     put "GAME OVER, YEAH!"
         put "(Mario drowned!)"
-    end if
+  delay (5000)
+            sfm := 2
+            delay (100)
+            sfm := 1
+            cls
+        else
+        end if
     
       if input = "31" then
 put ""
@@ -808,7 +894,13 @@ put "Mario is about to use SUPER SMASH 360 NOSCOPE PINGAS ATTACK!!!"
     delay (1500)
     colour (12)
     put "GAME OVER, YEAH!"
-    end if
+  delay (5000)
+            sfm := 2
+            delay (100)
+            sfm := 1
+            cls
+        else
+        end if
     
      if input = "32" then
     put ""
@@ -840,3 +932,4 @@ put ""
     put "-Sonason, dev"
 end if
 
+end loop
