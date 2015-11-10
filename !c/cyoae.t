@@ -1237,6 +1237,15 @@ loop
             put ""
             get input
         end if
+        
+        if input = 71 then
+            put ""
+            put "You choose to chase the bus, but how will you do that?"
+            put "RUN FOR THE BUS!!!! AHHHHHHHHHHHHHHH![53]"
+            put "RUNRUNRUNRUNRUNRUN! [54]"
+            put ""
+            get input
+        end if
 
 
     end loop
