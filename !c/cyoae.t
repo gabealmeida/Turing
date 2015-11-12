@@ -380,7 +380,7 @@ loop
             put "You start climbing the ladder."
 
             for i : 1 .. 60
-                put "."..
+                put "." ..
                 delay (1000)
             end for
 
@@ -560,7 +560,7 @@ loop
 
             for i : 1 .. 5
                 delay (1500)
-                put "."..
+                put "." ..
             end for
 
             put "OOH! LOOK LOOK LOOK! SHINY THINGS!"
@@ -579,7 +579,7 @@ loop
 
             for i : 1 .. 5
                 delay (1500)
-                put "."..
+                put "." ..
             end for
 
             put "Out of the corner of your eye, you see some people surrounding a metal object and you hide behind a tire on the ground."
@@ -617,7 +617,7 @@ loop
 
             for i : 1 .. 60
                 delay (1000)
-                put "."..
+                put "." ..
             end for
 
             put "Splat! You land hard and have nothing to break your fall."
@@ -677,7 +677,7 @@ loop
             put "You stare into the sun" ..
 
             for i : 1 .. 6
-                put "."..
+                put "." ..
                 delay (1000)
             end for
 
@@ -697,7 +697,7 @@ loop
             put "It's not too far from your house, just a couple of blocks away from your house."
 
             for i : 1 .. 10
-                put "."..
+                put "." ..
                 delay (1000)
             end for
 
@@ -792,7 +792,7 @@ loop
             put ""
             put "You say hi."
             for i : 1 .. 3
-                put "."..
+                put "." ..
                 delay (1000)
             end for
             put "Oh wait, you're still here... Behind the tires..."
@@ -953,7 +953,7 @@ loop
             put "So you walk to the nearby Taco Hut."
             for i : 1 .. 5
                 delay (1000)
-                put "."..
+                put "." ..
             end for
             put "Yay! We're here! Can you order me a quasadila with extra sour cream?"
             put "Type [74] to continue"
@@ -1253,12 +1253,25 @@ loop
             put "(Actually, this is a choose your own adventure story, but who cares?"
             put "You wait for the bus"
             for i : 0 .. 60
-                put "."..
+                put "." ..
                 delay (500)
             end for
             put "What will you do now?"
             put "Keep waiting... [111]"
             put "Go to Taco Hut [44]"
+            put ""
+            get input
+        end if
+
+        if input = 73 then
+            put ""
+            put "You go outside with fingers almost ripped off."
+            put "The gentle breeze burns what is left of your hand."
+            put "What will you do?"
+            put "GO TO THE HOSPITAL!!! AHHHH! [112]"
+            put "Call 911! [113]"
+            put "CALL 911 AND DROP THE BASS! [114]"
+            put "Wave at the lady who is about to walk past you [115]"
             put ""
             get input
         end if
