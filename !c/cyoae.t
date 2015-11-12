@@ -1276,5 +1276,10 @@ loop
             get input
         end if
 
+        if input = 74 then
+            %put "rdr to 44"
+            input := 44
+        end if
+
     end loop
 end loop
