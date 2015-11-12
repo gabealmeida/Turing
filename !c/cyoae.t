@@ -1277,15 +1277,8 @@ loop
         end if
 
         if input = 74 then
-            put ""
-            put "You walk into the Taco Hut."
-            put "What will you do now?"
-            put
-                "Order a Quintuple-Fried Triple Bypass Burrito with Quadruple-Deep-Fried tortilla bread drizzed in chocolate     (comes with Jumbo-Sized Nachos, small fountain drink, and free fast-track admission to local hospital) [68]"
-            put "Go to the bathroom, I really have to go! [69]"
-            put "Grab a seat, my legs are tired [70]"
-            put ""
-            get input
+            %put "rdr to 44"
+            input := 44
         end if
 
     end loop
