@@ -965,7 +965,7 @@ loop
             put ""
             put "Spinnin' Spaghetti, eh?"
             put "Okay, whatever floats your boat, I just wanted to say that their meatballs are gross."
-            put "You walk to Mario & Luigi's"
+            put "You walk to Mario & Luigi's Spinnin' Spaghetti"
             put "(Hmm, those names seem familiar...)"
             put "You walk in where you are greeted by a small man wearing a mushroom on his head."
             put "''Hi there!'' he says in his shrieking voice"
@@ -1279,6 +1279,21 @@ loop
         if input = 74 then
             %put "rdr to 44"
             input := 44
+        end if
+
+        if input = 75 then
+            put ""
+            put "You give the strange mushroom man your coat."
+            put "Mushroom Man >> Thank you! Follow me to your table for... one!"
+            put "You follow the Mushroom Man through the restaurant. The restaurant is decorated similarily to a videogame you know."
+            put "The Mushroom Man pulls out a chair for you to sit on and just as you do, he gives you a menu."
+            put "(Heh, it's like there's ''two'' of them)"
+            put "Mushroom Man >> What would you like to order?"
+            put "Spaghetti [116]"
+            put "Spaghetti [116]"
+            put "Spaghetti [116]"
+            put ""
+            get input
         end if
 
     end loop
