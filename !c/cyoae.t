@@ -1322,6 +1322,22 @@ loop
             get input
         end if
 
+        if input = 78 then
+            put ""
+            put "You ignore the obvious facts and grab a sign to protest."
+            put "There is a person on the roof of the restaurant chanting, wanting everyone else to chant."
+            put "Protester on the roof >> Repeat after me!"
+            put "Protester on the roof >> PINE-APPLES MA-TTER!"
+            put "What will you do?"
+            put "Chant ''PINE-APPLES MA-TTER!'' [119]"
+            put "Chant '' PINEAPPLES MATTER!'' [120]"
+            put "Scream ''Wait!'' [121]"
+            put "Leave the protesters [122]"
+            put ""
+            get input
+        end if
+
+
 
     end loop
 end loop
