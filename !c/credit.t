@@ -1,4 +1,4 @@
-% CRED.t; Prototype Credits for CYOAE by NotNemesis
+% credit.t; Prototype Credits for CYOAE by NotNemesis
 View.Set ("graphics:900;600")
 var credh : int := Font.New ("system:72")
 var credb : int := Font.New ("system:36")
