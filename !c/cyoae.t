@@ -586,7 +586,7 @@ loop
             put "What will you do?"
             put "Say hi [40]"
             put "Stay here and hope they find you [41]"
-            put 'Scream "Stranger Danger!" and run away. [42]'
+            put "Scream ''Stranger Danger!'' and run away. [42]"
             put "Fake an injury and cry loudly [43]"
             put ""
             get input
@@ -673,7 +673,7 @@ loop
 
         if input = 32 then
             put ""
-            put 'Cool! I watched "Science That!" the other day and heard you can get superpowers by looking at the sun!'
+            put "Cool! I watched''Science That!''the other day and heard you can get superpowers by looking at the sun!"
             put "You stare into the sun" ..
 
             for i : 1 .. 6
@@ -826,11 +826,11 @@ loop
         if input = 42 then
             put ""
             put "As you learned in some form of previous or current education, strangers are bad and you need to run away from them."
-            put 'You scream "STRANGER DANGER!!!" at the top of your lungs and start to run.'
-            put 'One of the people from the camp starts to chase you saying "Hey wait!"'
+            put "You scream ''STRANGER DANGER!!!'' at the top of your lungs and start to run."
+            put "One of the people from the camp starts to chase you saying ''Hey wait!''."
             put "You can't fool me dangerous stranger person!"
             put "Right at that moment, you trip on a pineapple and fall into the stomach acids of the beast!"
-            put 'Your last words are "ARGBALARGABABHRG DARBN BABLAGRBABGGLARB PINEBLAGRBLARPLE!"'
+            put "Your last words are ''ARGBALARGABABHRG DARBN BABLAGRBABGGLARB PINEBLAGRBLARPLE!''"
             colour (12)
             put "GAME OVER!"
             put "Type [0] to restart"
@@ -891,8 +891,8 @@ loop
             put "Fine you big jerk! Don't tie your dumb shoes!"
             put "You tuck your laces into your shoes and start to leave the house."
             put "Just then, New Punidas, Lord of Shoes, appears!"
-            put '"YOU!" he says in his booming voice.'
-            put '"Due to your ignorance and lack of tying your shoes, I force you to 80 years of untying knots in dimension 982!"'
+            put "''YOU!'' he says in his booming voice."
+            put "''Due to your ignorance and lack of tying your shoes, I force you to 80 years of untying knots in dimension 982!''"
             put "In the blink of an eye, you are sent to dimension 982 and must untie knots for the rest of your life!"
             colour (12)
             put "GAME OVER!"
@@ -968,8 +968,8 @@ loop
             put "You walk to Mario & Luigi's Spinnin' Spaghetti"
             put "(Hmm, those names seem familiar...)"
             put "You walk in where you are greeted by a small man wearing a mushroom on his head."
-            put '"Hi there!" he says in his shrieking voice'
-            put '"Can I take your coat?"'
+            put "''Hi there!'' he says in his shrieking voice"
+            put "''Can I take your coat?''"
             put "What will you do?"
             put "Give strange man your coat [75]"
             put "Keep your coat, this place gives you a creepy vibe [76]"
@@ -1037,7 +1037,7 @@ loop
         if input = 57 then
             put ""
             put "Ooh, someone's greedy, eh?"
-            put 'You grab your  Homer(C) Brand "Outta Sight!" baseball bat'
+            put "You grab your  Homer(C) Brand ''Outta Sight!'' baseball bat"
             put "(Remember kids, if it ain't Homer(C), it ain't gonna do a homer either!)"
             put "You also grab a mask of Jerry Seinfeld and put it on your face to protect your identity."
             put "But which bank will you rob?"
@@ -1103,12 +1103,12 @@ loop
             put "AT LEAST IT'S A BIT MORE HUMANE!"
             put "IF BEING HUMANE IS YOUR BIGGEST CONCERN, INSTEAD OF HIDING IT, YOU DRESS UP THE BODY AND PUT IT IN A LAWN CHAIR"
             put "YOU ALSO ATTACH SOME STRINGS TO THE BODY TO PUPPETEER IT"
-            put 'YOU QUICKLY JUMP ON THE ROOF OF YOUR HOUSE AND BEGIN TO PUPPET AS A POLICE OFFICER WALKS UP TO "HER"'
+            put "YOU QUICKLY JUMP ON THE ROOF OF YOUR HOUSE AND BEGIN TO PUPPET AS A POLICE OFFICER WALKS UP TO ''HER''"
             put "Police Officer >> Hello there, uhh... ma'am. I've heard complaints about loud noises here in the block and I    just wanted to hear if there were any witnesses..."
-            put 'What will you say, "Ms. Sowannitz"?'
+            put "What will you say, ''Ms. Sowannitz''?"
             put "WHAT'S THAT, SONNY? I CAN'T HEAR YOU!!! [96]"
             put "Nonono, nothing happening here! [97]"
-            put "Yeah, some guy just threw a TV out their window and then some old lady and her dog died when they git hit by it! Also that old lady is me and that dog was mine [98]"
+            put "Yeah, some guy just threw a TV out their window and then some old lady and her dog died when they git hit by it!Also that old lady is me and that dog was mine [98]"
             put " "
             get input
         end if
@@ -1145,7 +1145,7 @@ loop
         if input = 64 then
             put ""
             put "You watch the Democratic People's Republic of North Dakota State-Run TV (or DPRNDSRTV for short)"
-            put 'DPRNDSRTV >> We interupt this broadcast of "Days of Our Democratic People`s Lives" to bring you a special    report'
+            put "DPRNDSRTV >> We interupt this broadcast of ''Days of Our Democratic People's Lives'' to bring you a special    report."
             put "DPRNDSRTV >> The leader is great, the leader is good!"
             put "DPRNDSRTV >> The leader is great, the leader is good!"
             put "DPRNDSRTV >> The leader is great, the leader is good!"
@@ -1153,7 +1153,7 @@ loop
             put "What will you do now?"
             put "Watch NTV [65]"
             put "Watch Tri-City Area News [66]"
-            put 'Chant "the leader is great, the leader is good" [101]'
+            put "Chant ''the leader is great, the leader is good'' [101]"
             put ""
             get input
         end if
@@ -1172,7 +1172,7 @@ loop
 
         if input = 66 then
             put ""
-            put 'You watch Tri-City Area News, "the best local news in your area!"'
+            put "You watch Tri-City Area News, ''the best local news in your area!''"
             put "The news starts..."
             put "TCAN >> Good whatever it is. I'm Alan Normstormm, and here's the news."
             put "TCAN >> A local elderly woman was not freaked out or killed on her dog walk today. That's good I guess."
@@ -1195,7 +1195,7 @@ loop
             put "The very nice person who rolled you in's mouth is moving but it's hard to hear him."
             put "Very Nice Person >> Hell...! He...! Can you he...? Are you aller... ...dicine?"
             put "Very Nice Person >> Wha.. yo... ...me?"
-            put 'You scream out "ARRRRRGGGGGG MY FOOOOOOOOOOOOOOOOOOOT!"'
+            put "You scream out ''ARRRRRGGGGGG MY FOOOOOOOOOOOOOOOOOOOT!''"
             put "You hear rumbling... and feel shaking..."
             put "Very Nice Guy >> We ha... ...o time! Give him 100cc's of..!"
             put "You fall asleep. Type [104] to continue."
@@ -1249,7 +1249,7 @@ loop
 
         if input = 72 then
             put ""
-            put 'You`re gonna wait!? This is a "video"game, not a "waiting" game...'
+            put "You're gonna wait!? This is a ''video''game, not a ''waiting'' game"
             put "(Actually, this is a choose your own adventure story, but who cares?"
             put "You wait for the bus"
             for i : 0 .. 60
@@ -1287,7 +1287,7 @@ loop
             put "Mushroom Man >> Thank you! Follow me to your table for... one!"
             put "You follow the Mushroom Man through the restaurant. The restaurant is decorated similarily to a videogame you know."
             put "The Mushroom Man pulls out a chair for you to sit on and just as you do, he gives you a menu."
-            put '(Heh, it`s like there`s "two" of them)'
+            put "(Heh, it's like there's ''two'' of them)"
             put "Mushroom Man >> What would you like to order?"
             put "Spaghetti [116]"
             put "Spaghetti [116]"
@@ -1295,7 +1295,7 @@ loop
             put ""
             get input
         end if
-
+        
         if input = 76 then
             put ""
             put "You tell the strange man that you'll keep your coat."
