@@ -38,9 +38,9 @@ Clock program made in Turing.
 <br>
 Contributors : NotNemesis, sonason, Minecraftian47
 <br>
-Version : v52
+Version : v53.1
 <br>
-Last Updated Nov 11, 2015
+Last Updated Nov 14, 2015
 <br>
 Description
 <br>

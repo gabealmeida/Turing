@@ -1295,6 +1295,21 @@ loop
             put ""
             get input
         end if
+        
+        if input = 76 then
+            put ""
+            put "You tell the strange man that you'll keep your coat."
+            put "Mushroom Man >> Oh OKAY then... Follow me to your table."
+            put "You follow the Mushroom Man through the restaurant. The restaurant is decorated similarily to a videogame you know. He brings you to a table."
+            put "Mushroom Man >> SIT DOWN."
+            put "He forcefully gives you a menu."
+            put "Mushroom Man >> ORDER SOMETHING OR GET OUT."
+            put "Spaghetti [116]"
+            put '"I have to go to the bathroom" [117]'
+            put "Leaveleaveleave [118]"
+            put ""
+            get input
+        end if
 
     end loop
 end loop
