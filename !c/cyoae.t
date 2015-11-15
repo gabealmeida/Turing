@@ -1295,7 +1295,7 @@ loop
             put ""
             get input
         end if
-        
+
         if input = 76 then
             put ""
             put "You tell the strange man that you'll keep your coat."
@@ -1304,12 +1304,24 @@ loop
             put "Mushroom Man >> SIT DOWN."
             put "He forcefully gives you a menu."
             put "Mushroom Man >> ORDER SOMETHING OR GET OUT."
-            put "Spaghetti [116]"
-            put '"I have to go to the bathroom" [117]'
+            put "Order spaghetti [116]"
+            put "'I have to go to the bathroom' [117]"
             put "Leaveleaveleave [118]"
             put ""
             get input
         end if
+
+        if input = 77 then
+            put ""
+            put "You leave Pineapple Burger."
+            put "Where will you go now?"
+            put "Bus Stop [49]"
+            put "Taco Hut [50]"
+            put "Mario & Luigi's Spinnin' Spaghettii Diner [51]"
+            put ""
+            get input
+        end if
+
 
     end loop
 end loop
