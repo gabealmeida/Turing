@@ -1337,6 +1337,19 @@ loop
             get input
         end if
 
+        if input = 79 then
+            put ""
+            put "You tell those ''dumb'' pineapples that they're dumb and that they should have never advanced to where they are now in society."
+            put "The pineapples turn around and jump on you to attack you."
+            put "They aren't very strong because they pineapples but they put up a good fight."
+            put "There are ten pineapples on you. What will you do?"
+            put "Give up, I won't win... [123]"
+            put "Spin around to get them off! [124]"
+            put "Stop, drop, and roll! [125]"
+            put ""
+            get input
+        end if
+
 
 
     end loop
