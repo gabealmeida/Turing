@@ -1,0 +1,70 @@
+% Porn by Mike Dombrovsky v1.0
+% Super Amazing Turing Choosable Adventure Engine
+
+% A simple game engine that allows a player to make a simple Choose Your Own Adventure game
+% Input variables are intergers because it allows to make a parameter where if an interger is
+% too high, it won't let them make that input and will give an error message instead
+
+var win1 : int := Window.Open ("position:center;center,graphics:900;600,nobuttonbar,title: SATCA") % Opens main window
+var input, inres : int  % Takes user input, resets game
+var res : int := 1 % Reset game
+var logo : int := Pic.FileNew ("logo.jpg") % Placeholder logo. MadOctopus logo can be downloaded @ https://goo.gl/Qup6O8
+
+% This if structure looks for the placeholder logo. If it does not exist where the file is saved,
+% it will give an error. Otherwise, it puts the logo. Keep in mind that this logo is only designed
+% for a 900*600px screen or window.
+if logo = 0 then 
+    put "<logo.jpg was not found in default file directory>"
+    put "loading game, please wait..."
+    delay (3000)
+    cls
+else
+    Pic.Draw (logo, 0, 0, picCopy)
+    delay (3000)
+    cls
+end if
+
+loop
+if res = 1 then
+cls
+put "Making Porn "
+put "cyoe (porn) by Mike dombrovsky"
+put "Type [0] to begin"
+res := 0 
+get input
+end if
+
+if input = 0 then
+put "Choose type of porn"
+put "Heterosexual [1]"
+put "Gay [2]"
+put "Lesbian [3]"
+get input
+end if
+
+if input = 1 then
+put "okay you are Dumb"
+end if
+
+if input = 2 then 
+put "Gross, you are bad!"
+end if
+
+if input = 3 then
+put "ALRIGHT!!!!!!!!!!! your brain is small"
+end if
+
+
+if input > 3 or input < 0 then % 2 is the highest input you can give, 0 is the lowest
+put "Invalid input"
+get input
+end if
+
+end loop
+
+colour (red)
+put "You have exited the loop. This could have been caused by abnormal behaivour in the program"
+% put "Please close the program and try again"  % Only use this line when using SATCA for a project. Do not use this line within the demo
+% Please remove the next two lines of code when using SATCA for a project
+put "In the case of SATCA.t, this is normal behaivour caused by an option."
+put "Within a program that uses SATCA, exiting the loop could be abnormal behaivour"
